@@ -1,0 +1,4697 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+  
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This article introduces all of the possibilities offered by Piwigo to describe, organize, present and index your files with the properties and metadata.">
+      
+      
+        <meta name="author" content="Piwigo">
+      
+      
+        <link rel="canonical" href="https://doc.piwigo.org/import-and-manage-photos/properties-metadata-photos-piwigo/">
+      
+      
+        <link rel="prev" href="../batch-manager-piwigo/">
+      
+      
+        <link rel="next" href="../multiple-formats-piwigo/">
+      
+      
+        
+          <link rel="alternate" href="https://doc-fr.piwigo.org/" hreflang="fr">
+        
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="zensical-0.0.62">
+    
+  <!-- Google site -->
+  <meta name="google-site-verification" content="_xMV5Z_ZbU2nmJluoSdvX4-P5vFYGX87vU1yKolqED8" />
+  <!-- Open graph -->
+  
+    <meta property="og:title" content="Photo properties and metadata - Piwigo Documentation">
+    <meta property="og:site_name" content="Photo properties and metadata - Piwigo Documentation">
+  
+  
+    <meta name="og:description" content="This article introduces all of the possibilities offered by Piwigo to describe, organize, present and index your files with the properties and metadata.">
+  
+  <meta property="og:locale" content="en-US">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://doc.piwigo.org/import-and-manage-photos/properties-metadata-photos-piwigo/">
+
+    
+  
+    <title>Photo properties and metadata - Piwigo Documentation</title>
+  
+
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.ce62732f.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.812a03bb.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/fonts.css">
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+  
+
+
+  <script defer data-domain="doc.piwigo.org" src="https://plausible.piwigo.org/js/script.file-downloads.hash.outbound-links.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navigation"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#managing-your-files-properties-and-metadata" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Piwigo Documentation - DAM and photo library software" class="md-header__button md-logo" aria-label="Piwigo Documentation - DAM and photo library software" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="Piwigo Documentation - DAM and photo library software">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navigation">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Piwigo Documentation - DAM and photo library software
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Photo properties and metadata - Piwigo Documentation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-languages" viewBox="0 0 24 24"><path d="m5 8 6 6M4 14l6-6 2-3M2 5h12M7 2h1M22 22l-5-10-5 10M14 18h6"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="https://doc-fr.piwigo.org/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+        <a href="https://piwigo.org" title="Back to piwigo.org" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+  </div>
+  <div class="md-source__repository">
+      Back to Piwigo.org
+  </div>
+</a>
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <!-- Add span to site name in drawer label (line 15) -->
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Piwigo Documentation - DAM and photo library software" class="md-nav__button md-logo" aria-label="Piwigo Documentation - DAM and photo library software" data-md-component="logo">
+      
+  <img src="../../assets/logo.svg" alt="Piwigo Documentation - DAM and photo library software">
+
+    </a>
+    <span>Piwigo Documentation - DAM and photo library software</span>
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://piwigo.org" title="Back to piwigo.org" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+  </div>
+  <div class="md-source__repository">
+      Back to Piwigo.org
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-house" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Home
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../start-with-piwigo/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-help-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3M12 17h.01"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Get started
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Get started
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start-with-piwigo/understand-everything-about-piwigo-in-2-minutes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Intro: Piwigo in 2 minutes
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../start-with-piwigo/get-started-with-piwigo-in-15-minutes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Get started with Piwigo in 15 minutes
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-image-down" viewBox="0 0 24 24"><path d="M10.3 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10l-3.1-3.1a2 2 0 0 0-2.814.014L6 21"/><path d="m14 19 3 3v-5.5M17 22l3-3"/><circle cx="9" cy="9" r="2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Import and manage photos
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Import and manage photos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../importing-photos-into-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Importing photos into Piwigo
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../file-formats-compatible-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Compatible file formats
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modifying-or-deleting-photos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Modifying or deleting photos
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../batch-manager-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Batch manager
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Properties and metadata
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Properties and metadata
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Glossary
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Glossary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What are metadata?
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-are-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What are properties?
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-your-photos-metadata-on-piwigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Managing your photos’ metadata on Piwigo
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing your photos’ metadata on Piwigo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#display-metadata-in-the-piwigo-gallery" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Display metadata in the Piwigo gallery
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronizing-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Synchronizing metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#read-metadata-display-all-the-metadata-of-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Read Metadata: Display all the metadata of a file
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-more-exif-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Show more EXIF Metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-iptc-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Show IPTC Metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapping-metadata-with-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mapping metadata with properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-metadata-replace-metadata-with-the-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Write Metadata: Replace metadata with the properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exif-view-translate-your-photos-exif-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Exif View: Translate your photos' EXIF values
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iptc-from-mac-solve-issues-with-special-characters-in-your-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        IPTC from Mac: Solve issues with special characters in your metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-properties-in-piwigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Managing properties in Piwigo
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing properties in Piwigo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editing-a-files-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Editing a file’s properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#title" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Title
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#author" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Author
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creation-date" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Creation date
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linked-albums" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Linked albums
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#album-thumbnail-album-representative" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Album thumbnail (album representative)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Tags
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Description
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#who-can-see-this-photo-privacy-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Who can see this photo (privacy level)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-properties-in-your-gallery" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Displaying properties in your gallery
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-properties-with-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Customizing properties with plugins
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customizing properties with plugins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manage-properties-photos-customizing-the-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Manage Properties Photos: Customizing the properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties-mass-update-updating-the-properties-in-bulk-from-a-csv-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Properties Mass Update: Updating the properties in bulk from a .csv file
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-photo-identifier-displaying-the-photos-identifier-among-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Show Photo Identifier: Displaying the photo's identifier among properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-counter-displaying-the-number-of-downloads-among-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Download Counter: Displaying the number of downloads among properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expiry-date-adding-an-expiry-date-to-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Expiry Date: Adding an expiry date to a file
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copyrights-managing-a-files-copyrights" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Copyrights: Managing a file's copyrights
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-filename-editing-a-files-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Edit Filename: Editing a file's name
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multiple-formats-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Multiple formats
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../browsing-your-piwigo-gallery/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-app-window" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="M10 4v4M2 8h20M6 4v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Browsing your gallery
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Browsing your gallery
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browsing-your-piwigo-gallery/your-gallery-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Introduction to your gallery
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browsing-your-piwigo-gallery/albums-in-your-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  The album page in your gallery
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browsing-your-piwigo-gallery/the-photo-page-in-your-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  The photo page in your gallery
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browsing-your-piwigo-gallery/tags-in-your-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Tags in your gallery
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browsing-your-piwigo-gallery/search-for-a-photo-in-your-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Search for a photo
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browsing-your-piwigo-gallery/manage-your-favorites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Manage favorites
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../browsing-your-piwigo-gallery/user-collections-plugin-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Create collections
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../organizing-albums/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-folder" viewBox="0 0 24 24"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Organizing albums
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Organizing albums
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organizing-albums/albums-and-sub-albums-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Albums and sub-albums
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organizing-albums/how-to-create-an-album/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Create an album
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organizing-albums/managing-your-albums/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Managing albums
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organizing-albums/editing-an-album/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Editing an album
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organizing-albums/permissions-and-album-visibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Permissions and albums visibility
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../organizing-albums/smart-albums-plugin-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Smart Albums
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../tags-in-piwigo/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-tags" viewBox="0 0 24 24"><path d="M13.172 2a2 2 0 0 1 1.414.586l6.71 6.71a2.4 2.4 0 0 1 0 3.408l-4.592 4.592a2.4 2.4 0 0 1-3.408 0l-6.71-6.71A2 2 0 0 1 6 9.172V3a1 1 0 0 1 1-1zM2 7v6.172a2 2 0 0 0 .586 1.414l6.71 6.71a2.4 2.4 0 0 0 3.191.193"/><circle cx="10.5" cy="6.5" r=".5" fill="currentColor"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Managing tags
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Managing tags
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags-in-piwigo/tags-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Introduction to tags
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags-in-piwigo/creating-and-managing-tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Creating and managing tags
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags-in-piwigo/tag-recognition-plugin-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Auto tag with AI (Tag Recognition)
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../comments-and-ratings/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-message-circle-more" viewBox="0 0 24 24"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719M8 12h.01M12 12h.01M16 12h.01"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Comments and rating
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Comments and rating
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comments-and-ratings/managing-comments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Managing comments
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comments-and-ratings/plugins-comments-management-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Plugins for comment management
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comments-and-ratings/managing-ratings-votes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Managing ratings (votes)
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../managing-users/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Managing users
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Managing users
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/users-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Introduction to user management
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/log-in-to-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Log in to Piwigo
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/user-statuses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Users statuses
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/creating-and-managing-users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Creating and managing users
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/privacy-levels/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Privacy levels
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/sending-notification-emails-to-users/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  User notifications
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/user-groups/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  User groups
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../managing-users/community-plugin-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Contributors (Community plugin)
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../piwigo-themes/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-palette" viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Themes
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Themes
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../piwigo-themes/piwigo-themes-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Introduction to themes
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../piwigo-themes/modus-theme-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Modus
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../piwigo-themes/bootstrap-darkroom-theme-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Bootstrap Darkroom
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../customizing-your-gallery/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sliders-horizontal" viewBox="0 0 24 24"><path d="M10 5H3M12 19H3M14 3v4M16 17v4M21 12h-9M21 19h-5M21 5h-7M8 10v4M8 12H3"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Customizing your gallery
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_10" id="__nav_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Customizing your gallery
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customizing-your-gallery/customization-options-for-your-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Customizing options
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customizing-your-gallery/managing-languages-available-gallery-piwigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Languages
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customizing-your-gallery/customizing-piwigo-gallery-menu-navbar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Customizing the menu
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customizing-your-gallery/add-pages-to-piwigo-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Adding pages
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customizing-your-gallery/customizing-piwigo-gallery-plugins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Customization plugins
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customizing-your-gallery/customize-css-code-piwigo-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  CSS customization
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customizing-your-gallery/adding-a-custom-banner-to-your-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Custom banner
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../administration-piwigo/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-settings" viewBox="0 0 24 24"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Administrating Piwigo
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_11" id="__nav_11_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Administrating Piwigo
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration-piwigo/viewing-statistics-piwigo-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Statistics & History
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration-piwigo/maintenance-piwigo-gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Maintenance
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../administration-piwigo/plugins-for-administrators/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Plugins for admins
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../piwigo-plugins/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-plug" viewBox="0 0 24 24"><path d="M12 22v-5M15 8V2M17 8a1 1 0 0 1 1 1v4a4 4 0 0 1-4 4h-4a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1zM9 8V2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Plugins
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_12" id="__nav_12_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Plugins
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../piwigo-plugins/plugins-piwigo-presentation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Plugins on Piwigo
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../mobile-apps/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-tablet-smartphone" viewBox="0 0 24 24"><rect width="10" height="14" x="3" y="8" rx="2"/><path d="M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4M8 18h.01"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Mobile apps
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_13" id="__nav_13_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Mobile apps
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mobile-apps/piwigo-ng-android-mobile-app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Piwigo NG for Android
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mobile-apps/piwigo-ios-mobile-app/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Piwigo for iOS
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../self-hosting-piwigo/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-cloudy" viewBox="0 0 24 24"><path d="M17.5 12a1 1 0 1 1 0 9H9.006a7 7 0 1 1 6.702-9z"/><path d="M21.832 9A3 3 0 0 0 19 7h-2.207a5.5 5.5 0 0 0-10.72.61"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Piwigo self-hosting
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_14" id="__nav_14_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Piwigo self-hosting
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_14_2" id="__nav_14_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Install guides
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_14_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Install guides
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/install-guides/requirements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Requirements
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/install-guides/manual-install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Manual installation
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/install-guides/docker-install/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Installation Docker
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_14_3" id="__nav_14_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Update guides
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_14_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Update guides
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/update-guides/automatic-update/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Automatic Update
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/update-guides/manual-update/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Manual Update
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/update-guides/docker-update/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Docker Update
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/importing-and-synchronizing-ftp-photos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  FTP import and sync
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/editing-configuration-localfiles-editor-plugin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Local configuration
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/move-your-piwigo-to-another-server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Move your Piwigo
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../self-hosting-piwigo/issues-generation-thumbnails-representative/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Issues with thumbnails generation
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../legal/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-scale" viewBox="0 0 24 24"><path d="M12 3v18M19 8l3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1M5 8l3 8a5 5 0 0 1-6 0zV7M7 21h10"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Legal
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_15" id="__nav_15_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Legal
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/terms-of-service/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Terms and Conditions of Use
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../legal/privacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Privacy Policy
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Glossary
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Glossary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What are metadata?
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-are-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        What are properties?
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-your-photos-metadata-on-piwigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Managing your photos’ metadata on Piwigo
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing your photos’ metadata on Piwigo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#display-metadata-in-the-piwigo-gallery" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Display metadata in the Piwigo gallery
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronizing-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Synchronizing metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#read-metadata-display-all-the-metadata-of-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Read Metadata: Display all the metadata of a file
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-more-exif-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Show more EXIF Metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-iptc-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Show IPTC Metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapping-metadata-with-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mapping metadata with properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#write-metadata-replace-metadata-with-the-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Write Metadata: Replace metadata with the properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exif-view-translate-your-photos-exif-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Exif View: Translate your photos' EXIF values
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iptc-from-mac-solve-issues-with-special-characters-in-your-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        IPTC from Mac: Solve issues with special characters in your metadata
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-properties-in-piwigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Managing properties in Piwigo
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Managing properties in Piwigo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#editing-a-files-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Editing a file’s properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#title" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Title
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#author" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Author
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#creation-date" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Creation date
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linked-albums" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Linked albums
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#album-thumbnail-album-representative" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Album thumbnail (album representative)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Tags
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Description
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#who-can-see-this-photo-privacy-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Who can see this photo (privacy level)
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#displaying-properties-in-your-gallery" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Displaying properties in your gallery
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customizing-properties-with-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Customizing properties with plugins
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customizing properties with plugins">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manage-properties-photos-customizing-the-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Manage Properties Photos: Customizing the properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#properties-mass-update-updating-the-properties-in-bulk-from-a-csv-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Properties Mass Update: Updating the properties in bulk from a .csv file
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-photo-identifier-displaying-the-photos-identifier-among-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Show Photo Identifier: Displaying the photo's identifier among properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-counter-displaying-the-number-of-downloads-among-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Download Counter: Displaying the number of downloads among properties
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expiry-date-adding-an-expiry-date-to-a-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Expiry Date: Adding an expiry date to a file
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copyrights-managing-a-files-copyrights" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Copyrights: Managing a file's copyrights
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edit-filename-editing-a-files-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Edit Filename: Editing a file's name
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Import and manage photos
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+    <a href="https://github.com/Piwigo/piwigo-docs-en/edit/main/docs/import-and-manage-photos/properties-metadata-photos-piwigo.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-pen" viewBox="0 0 24 24"><path d="M12.659 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v9.34"/><path d="M14 2v5a1 1 0 0 0 1 1h5M10.378 12.622a1 1 0 0 1 3 3.003L8.36 20.637a2 2 0 0 1-.854.506l-2.867.837a.5.5 0 0 1-.62-.62l.836-2.869a2 2 0 0 1 .506-.853z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/Piwigo/piwigo-docs-en/raw/main/docs/import-and-manage-photos/properties-metadata-photos-piwigo.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-file-code-2" viewBox="0 0 24 24"><path d="M4 12.15V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2h-3.35"/><path d="M14 2v5a1 1 0 0 0 1 1h5M5 16l-3 3 3 3M9 22l3-3-3-3"/></svg>
+    </a>
+  
+
+
+<h1 id="managing-your-files-properties-and-metadata">Managing your files’ properties and metadata</h1>
+<p><strong>This article introduces all of the possibilities offered by Piwigo to describe, organize, present and index your files with the properties and metadata.</strong></p>
+<h2 id="glossary">Glossary</h2>
+<p>Here are some clarifications to start off with!</p>
+<h3 id="what-are-metadata">What are metadata?</h3>
+<p>The metadata are details from the original file. They are read and integrated by Piwigo during import.</p>
+<p>The metadata are mainly relevant for photos. They are directly saved by the device upon shooting, or by a photo management software used by the photographer.</p>
+<p>Piwigo handles two types of metadata:</p>
+<ul>
+<li><strong>EXIF</strong>: these tags are typically used to describe how a photo was captured. For example, tags can contain information about the model of camera/smartphone used, lens, aperature size, focal length, exposure duration, date/time, GPS coordinates, etc.</li>
+<li><strong>IPTC:</strong> IPTC headers describes the content of the image. Some cameras will allow you to record your name, and other copyright information to a digital photo, using this header. Sometimes, editing software is used to later add information like titles, headlines, captions, descriptions, keywords etc.</li>
+</ul>
+<p>The basic metadata are the following:</p>
+<ul>
+<li>file name</li>
+<li>file size</li>
+<li>file dimensions</li>
+<li>author</li>
+<li>creation date</li>
+</ul>
+<p>Many additional metadata can be available, such as the camera brand, the model, the details about the shooting, the keywords…</p>
+<p>If you import your files into Piwigo from an external software such as Lightroom, Digikam, Shotwell, or Aperture, the metadata are imported to Piwigo from these softwares.</p>
+<p>By default, Piwigo displays some <strong>basic</strong> metadata on the photo page (dimensions, filesize etc.). When the “Show metadata” icon is clicked, some additional <strong>EXIF</strong> metadata will be shown: Camera Make+Model, image capture date+time, and aperature F-number. Piwigo does not display IPTC metadata by default.</p>
+<p><img alt="The metadata displayed with the Modus theme" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-5b2fae89.jpg" /></p>
+<p>The metadata displayed with the Modus theme</p>
+<p><img alt="The metadata displayed with the Bootstrap Darkroom theme" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-e87db559.jpg" /></p>
+<p>The metadata displayed with the Bootstrap Darkroom theme</p>
+<h3 id="what-are-properties">What are properties?</h3>
+<p>Properties are Piwigo's in-house fields, allowing you to describe and sort your files.</p>
+<p>Some properties are created by Piwigo, such as the import date; others are imported from the metadata, such as the creation date (date when the photo was taken); lastly, others can be chosen by you.</p>
+<p>Some properties can be added with plugins. The <strong>Manage Properties Photos</strong> plugin even allows you to create custom properties (we will cover this topic later in this article).</p>
+<p>In any case, these properties can be modified. They can be displayed in the gallery.</p>
+<p><img alt="The properties displayed with the Modus theme" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-ce5c160e.jpg" /></p>
+<p>The properties displayed with the Modus theme</p>
+<p><img alt="The properties displayed with the Bootstrap Darkroom theme" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-78d870bc.jpg" /></p>
+<p>The properties displayed with the Bootstrap Darkroom theme</p>
+<h2 id="managing-your-photos-metadata-on-piwigo">Managing your photos’ metadata on Piwigo</h2>
+<p>As we said, metadata are automatically integrated into Piwigo when you import photos.</p>
+<p>But there are some options to learn about in order to display and manage these metadata.</p>
+<h3 id="display-metadata-in-the-piwigo-gallery">Display metadata in the Piwigo gallery</h3>
+<p><strong>Displaying the metadata with Modus</strong></p>
+<p>When using the <a href="../../piwigo-themes/modus-theme-piwigo/">Modus</a> theme, a camera-shaped icon on a photo's page will allow you to display the metadata.</p>
+<p><img alt="afficher-metadonnees.png" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-03424eb2.png" /></p>
+<p>When clicking on this icon, some metadata will be added to the properties in the section on the right.</p>
+<p><img alt="EXIF metadata.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-5b2fae89.jpg" /></p>
+<p>If you want to hide the metadata display icon in your gallery, go in the administration: in the Configuration &gt; Options menu, in the "Display" tab, then the "Photo page" section: you are then able to select or deselect the "Activate icon "Show file metadata"" option.</p>
+<p>If you want the metadata to always be displayed in your gallery without needing to click on this icon, then download the <strong>AlwaysShowMetadata</strong> plugin.</p>
+<p><strong>Displaying the metadata with Bootstrap Darkroom</strong></p>
+<p>When using the <a href="../../piwigo-themes/bootstrap-darkroom-theme-piwigo/">Bootstrap Darkroom</a> theme, the metadata, when available, will be displayed below the photo by default, in the column on the right.</p>
+<p>They can also be displayed in a tab, or in a side bar, depending on the option you chose when setting up your theme.</p>
+<p><img alt="Darkroom theme.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-423ae635.jpg" /></p>
+<p>If you want to hide the metadata with the Bootstrap Darkroom theme, the only solution is to also hide the properties through the theme's configuration, by selecting the "Picture info display position = disabled" option.</p>
+<p><img alt="Picture page display.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-7d14f38d.jpg" /></p>
+<h3 id="synchronizing-metadata">Synchronizing metadata</h3>
+<p>On the editing page of a photo in the administration, a button allows you to synchronize a file's metadata. This action imports your files’ metadata to your Piwigo database. Normally, it should be automatically done when you imported the files to Piwigo.</p>
+<p>But it might be useful if photos have been imported through FTP and the synchronization step has been skipped. </p>
+<p>It can also be useful after a change in configuration, to apply the metadata's new import configurations.</p>
+<p>If you are a self hosted user and use FTP synchronization to import your files, you can also synchronize metadata in batch through the “Synchronize” menu of your administration panel. <a href="../../self-hosting-piwigo/importing-and-synchronizing-ftp-photos/">Learn more about FTP Synchronization</a></p>
+<h3 id="read-metadata-display-all-the-metadata-of-a-file">Read Metadata: Display all the metadata of a file</h3>
+<p>If you want the ability to display all the metadata of a file from your gallery in the administration, you need to install the <strong>Read Metadata</strong> plugin.</p>
+<p>This plugin's Configuration screen allows you to extract a file's metadata, either from its ID or by selecting it in a drop-down list.</p>
+<p><img alt="Read metadata.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-b8adfb2b.jpg" /></p>
+<h3 id="show-more-exif-metadata">Show more EXIF Metadata</h3>
+<p>As we said, Piwigo show some EXIF Metadata by default. But you can display more EXIF fields if your want to. </p>
+<p>If you are a Piwigo cloud customer, you need to contact support.</p>
+<p>If you manage a self hosted Piwigo gallery, you just have to edit the configuration file using <a href="../../self-hosting-piwigo/editing-configuration-localfiles-editor-plugin/">LocalFiles Editor</a>.</p>
+<ul>
+<li>
+<p>Click here to show how to add new EXIF fields to your Piwigo gallery</p>
+<p>By default, here are the EXIF fields displayed.</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="x">$conf['show_exif_fields'] = array(</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="x">  'Make',</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="x">  'Model',</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="x">  'DateTimeOriginal',</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="x">  'COMPUTED;ApertureFNumber'</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="x">  );</span>
+</span></code></pre></div>
+<p>To display <em>more</em> Exif fields, all you have to do is add their keys in your config file with LocalFiles Editor. Inserting the example code below into your config plugin, will add a few more camera settings:</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="x">$conf['show_exif_fields'] = array(</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="x">  'DateTimeOriginal',</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="x">  'Make',</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="x">  'Model',</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="x">  'ExposureProgram',</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="x">  'FocalLengthIn35mmFilm',</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="x">  'FNumber',</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="x">  'ExposureTime',</span>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="x">  'ISOSpeedRatings',</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="x">  'Flash',</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="x">  'WhiteBalance',</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="x">  'UserComment'</span>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="x">  );</span>
+</span></code></pre></div>
+<p>To see all available EXIF metadata, just use the Read Metadata plugin presented in the previous chapter.</p>
+<p>If you don’t want to show EXIF metadata at all on your gallery, just add the following code to your config file:</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="x">$conf['show_exif'] = false;</span>
+</span></code></pre></div>
+</li>
+</ul>
+<h3 id="show-iptc-metadata">Show IPTC Metadata</h3>
+<p>As we said, Piwigo does not show IPTC metadata by default. But it is possible !</p>
+<p>If you are a Piwigo cloud customer, you need to contact support.</p>
+<p>If you manage a self hosted Piwigo gallery, you just have to edit the configuration files using <a href="../../self-hosting-piwigo/editing-configuration-localfiles-editor-plugin/">LocalFiles Editor</a>.</p>
+<ul>
+<li>
+<p>Click here to show how to display IPTC fields to your Piwigo gallery</p>
+<p>Add this parameter to your config file with LocalFiles Editor.</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="x">$conf['show_iptc'] = true;</span>
+</span></code></pre></div>
+<p>Then you must choose which fields to display. Here is an example:</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="x">$conf['show_iptc_mapping'] = array(</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="x">  'iptc_creator'         =&gt; '2#080',</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="x">  'iptc_title'           =&gt; '2#005',</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="x">  'iptc_headline'        =&gt; '2#105',</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="x">  'iptc_description'     =&gt; '2#120',</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="x">  'iptc_keywords'        =&gt; '2#025',</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="x">  );</span>
+</span></code></pre></div>
+<p>To see all available IPTC metadata, just use the Read Metadata plugin presented earlier in this page.</p>
+</li>
+</ul>
+<h3 id="mapping-metadata-with-properties">Mapping metadata with properties</h3>
+<p>By default, EXIF and IPTC metadata can be shown on the photo page, but but they are not searchable.</p>
+<p>If you want, you can map some metadata with Piwigo properties, so they can be used to search and sort photos on your gallery. For example, the “Model” EXIF field can be added in tags, if you want to filter photo by camera model.</p>
+<p>If you are a Piwigo cloud customer, you need to contact support to do so.</p>
+<p>If you manage a self hosted Piwigo gallery, you just have to edit the configuration files using <a href="../../self-hosting-piwigo/editing-configuration-localfiles-editor-plugin/">LocalFiles Editor</a>.</p>
+<ul>
+<li>
+<p>Click here to show how to map EXIF metadata with properties</p>
+<p>By default, the EXIF “DateTimeOriginal” metadata is imported as creation date in Piwigo thanks to the following config parameter.</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="x"> $conf['use_exif_mapping'] = array('date_creation' =&gt; 'DateTimeOriginal' ); </span>
+</span></code></pre></div>
+<p>You can add more mapping option by adding new lines to this parameter. </p>
+<p>This example imports comments to the description property:</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="x">$conf['use_exif_mapping'] = array(</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="x">  'date_creation'        =&gt; 'DateTimeOriginal',</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="x">  'comment'              =&gt; 'UserComment',</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="x">  );</span>
+</span></code></pre></div>
+<p>This example imports camera models as tags:</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="x">$conf['use_exif_mapping'] = array(</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="x">  'date_creation'        =&gt; 'DateTimeOriginal',</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="x">  'tags'                 =&gt; 'Model',</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="x">  );</span>
+</span></code></pre></div>
+</li>
+<li>
+<p>Click here to show how to map IPTC metadata with properties</p>
+<p>Example of extended mapping which imports IPTC metadata (often added using Adobe Lightroom) into corresponding Piwigo fields.</p>
+<div class="language-php highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="x">$conf['use_iptc_mapping'] = array(</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="x">  'author'          =&gt; '2#080',</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="x">  'name'            =&gt; '2#005',</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="x">  'comment'         =&gt; '2#120',</span>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="x">  'keywords'        =&gt; '2#025',</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="x">  );</span>
+</span></code></pre></div>
+</li>
+</ul>
+<h3 id="write-metadata-replace-metadata-with-the-properties">Write Metadata: Replace metadata with the properties</h3>
+<p>If you want to replace some IPTC metadata in the files imported to your gallery with information written in the Piwigo properties (title, description, authors, tags), you need to install the <strong>Write Metadata</strong> plugin.</p>
+<div class="admonition info">
+<p class="admonition-title">If you are a Piwigo Cloud plan customer, this plugin is only available from the Team plan and higher</p>
+</div>
+<h3 id="exif-view-translate-your-photos-exif-values">Exif View: Translate your photos' EXIF values</h3>
+<p>If you want the ability to translate EXIF values in the gallery's language, you need to install the <strong>Exif View</strong> plugin.</p>
+<h3 id="iptc-from-mac-solve-issues-with-special-characters-in-your-metadata">IPTC from Mac: Solve issues with special characters in your metadata</h3>
+<p>If you see strange characters in your photos' IPTC metadata, you can install the IPTC from Mac plugin, which converts IPTC data written in MacRoman to a UFT-8 encryption.</p>
+<h2 id="managing-properties-in-piwigo">Managing properties in Piwigo</h2>
+<h3 id="editing-a-files-properties">Editing a file’s properties</h3>
+<p>Unlike the metadata, it's up to you to set your files' properties in Piwigo. You can edit them when editing a photo in the administration.</p>
+<p><img alt="File properties.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-1c3748d1.jpg" /></p>
+<div class="admonition info">
+<p class="admonition-title">To learn more about photo editing, read the following articles :</p>
+<ul>
+<li>
+<p><a href="../modifying-or-deleting-photos/">Modifying or deleting photos</a></p>
+</li>
+<li>
+<p><a href="../batch-manager-piwigo/">Batch management: Modifying and managing a selection of photos</a></p>
+</li>
+</ul>
+</div>
+<p>Here are the properties and informations Piwigo offers by default to label a file.</p>
+<h3 id="title">Title</h3>
+<p>This is the name of the photo that will be displayed in the gallery. Depending on your theme and the chosen settings, the title will be displayed in multiple places in your gallery.</p>
+<p>By default, the name is created from the file's name, but you can change it.</p>
+<p>A photo's name allows you to find it easily using the search engine: this is therefore an important setting.</p>
+<h3 id="author">Author</h3>
+<p>This property allows you to mention the author, such as the photographer who took the photo, for example. It's an unrestricted, text-based field that can later be displayed in the gallery.</p>
+<h3 id="creation-date">Creation date</h3>
+<p>By default, the creation date is imported from the file's <em>metadata</em>.</p>
+<p>For a photo, this will usually be the date it was taken. For another file type, it will be the file's creation date.</p>
+<p>When editing a photo, you can click on "Unset" to leave this property empty, or edit the date if you don't like the date displayed by default.</p>
+<h3 id="linked-albums">Linked albums</h3>
+<p>Strictly speaking, linked albums aren't a property, even though they appear in the list of a photo’s properties.</p>
+<p>It is the album or albums in which this photo is located.</p>
+<p>Quick reminder, in Piwigo, a file can be located in multiple albums.</p>
+<p>When editing a photo, click on the cross where the album's name is in order to remove it from this album.</p>
+<p>To add the photo to another album, click on the "Add" button.</p>
+<p><img alt="Linked albums.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-6d2c744f.jpg" /></p>
+<p>A window opens listing existing albums. It lists existing albums and allows you to search for the album of your choice. Click on + to add the photo to the chosen album. You can also create a new album by clicking on “Creation mode”.</p>
+<p><img alt="image.png" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-fc0d4b05.png" /></p>
+<p>Once you've made your album selection, you'll be taken back to the photo editing page. Don't forget to click on the “Save settings” button to save your changes!</p>
+<p>To learn more about albums, <a href="../../organizing-albums/">read this set of articles</a>.</p>
+<h3 id="album-thumbnail-album-representative">Album thumbnail (album representative)</h3>
+<p>When editing a photo, this property shows the list of albums for which the current photo has been chosen as the main thumbnail.</p>
+<p><img alt="image.png" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-625b5c29.png" /></p>
+<p>If a photo is chosen to represent an album, it will be displayed in your gallery in the album list.</p>
+<p>By default, the photo that Piwigo chooses to represent an album in the list is the first photo uploaded to the album, but you can very well change it if you want to.</p>
+<p>Note that a photo doesn't need to be linked to an album in order to represent it.</p>
+<p>To learn more about albums, <a href="../../organizing-albums/">read this set of articles</a>.</p>
+<h3 id="tags">Tags</h3>
+<p>To organize and describe your photos, you can link them to tags (which you can also call keywords, or labels).</p>
+<p>Tags are displayed on the page of a photo in your gallery, the same way as properties, and they can be used to search for a photo that fits one or more criteria.</p>
+<p>When editing a photo in the administration, the Tags field works the same way as the Album field, with one difference: if you enter the name of a tag that doesn't exist yet, you can create it on the fly by pressing the Enter key.</p>
+<p><img alt="Adding tags.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-d58bf57c.jpg" /></p>
+<p>To learn more about tags, <a href="../../tags-in-piwigo/">read this set of articles</a>.</p>
+<h3 id="description">Description</h3>
+<p>The Description property allows you to display a presentation text for your photo in your gallery.</p>
+<p>Usually, the description is displayed below your photo in your gallery.</p>
+<p>By default, the description is also displayed as a tooltip when you hover the mouse over the photo.</p>
+<p><img alt="Photo description.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-cd17604c.jpg" /></p>
+<p>If you are using the <a href="../../piwigo-themes/bootstrap-darkroom-theme-piwigo/">Bootstrap Darkroom</a> theme, you can choose to display the photos' description instead of their title on an album's page.</p>
+<p>To format your description's text (putting text in bold, adding a link...), you have two options.</p>
+<ul>
+<li>If you know the HTML language, you can insert HTML tags in your descriptions.</li>
+<li>You can also install the <strong>FCKEditor</strong> plugin, which adds a visual HTML editor to the Description field of the photo editor.</li>
+</ul>
+<p><img alt="FCKEditor.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-b482ad9d.jpg" /></p>
+<p>To learn more about FCKEditor, <a href="../../administration-piwigo/plugins-for-administrators/">read this article</a>.</p>
+<p>To be able to translate descriptions into multiple languages, use the <strong>Extended Description</strong> plugin. To learn more about content translation with Extended Description, <a href="../../customizing-your-gallery/managing-languages-available-gallery-piwigo/">read this article</a>.</p>
+<h3 id="who-can-see-this-photo-privacy-level">Who can see this photo (privacy level)</h3>
+<p>This property allows you to set a file's Privacy level.</p>
+<p>By default, the privacy level is set to "Everybody": if the album is private, the photo will be shown to all users who are logged in and authorized to view the album.</p>
+<p><img alt="Privacy level.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-0e6c29d2.jpg" /></p>
+<p>But you can set a more refined privacy level by selecting another option in the drop-down menu.</p>
+<p><img alt="Other privacy levels.png" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-2737cf4d.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning :</p>
+<p>This feature should not be mistaken for the permissions by album! This is an advanced feature of Piwigo that might be somewhat hard to understand.</p>
+</div>
+<p>To learn more about privacy levels, <a href="../../managing-users/privacy-levels/">read this article</a>.</p>
+<h3 id="displaying-properties-in-your-gallery">Displaying properties in your gallery</h3>
+<p><strong>Displaying properties with the Modus theme</strong></p>
+<p>If you are using the <a href="../../piwigo-themes/modus-theme-piwigo/">Modus</a> theme, the properties will be displayed in the section on the right of the photo.</p>
+<p><img alt="Description.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-151d7151.jpg" /></p>
+<p><strong>Displaying properties with the Bootstrap Darkroom theme</strong></p>
+<p>If you are using the <a href="../../piwigo-themes/bootstrap-darkroom-theme-piwigo/">Bootstrap Darkroom</a> theme, by default, the properties will be displayed under the photo, in the column on the right.</p>
+<p>They can also be displayed in a tab or a side bar, depending on the option you chose in the theme's configuration.</p>
+<p><img alt="Darkroom theme.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-423ae635.jpg" /></p>
+<p>If you want to hide the properties with the Bootstrap Darkroom theme, you can do so via the theme's configuration, by choosing the "Picture info display position = Disabled" option.</p>
+<p><strong>Showing / hiding the properties in the gallery</strong></p>
+<p>If you want to choose which properties will be displayed and which ones won't next to each file in your gallery, go in the administration, in the Configuration &gt; Options menu, then the "Display" tab, and the "Photo properties" section.</p>
+<p><img alt="Photo properties.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-ec28a274.jpg" /></p>
+<p>To get access to further properties display options, you can use the <strong>Manage Properties Photos</strong> plugin (see next chapter).</p>
+<h2 id="customizing-properties-with-plugins">Customizing properties with plugins</h2>
+<h3 id="manage-properties-photos-customizing-the-properties">Manage Properties Photos: Customizing the properties</h3>
+<p>Do you want to add custom properties to your gallery, or even edit the display order of the existing properties?</p>
+<p>To do this, you need to install the <strong>Manage Properties Photos</strong> plugin.</p>
+<div class="admonition info">
+<p class="admonition-title">If you are a Piwigo Cloud plan customer, this plugin is only available from the Enterprise plan and higher</p>
+</div>
+<p>Once Manage Properties Photos is activated in your gallery, go in the plugin's configuration.</p>
+<p>The Properties tab lists the existing properties and allows you to create a new one.</p>
+<p><img alt="Manage photo properties.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-a47105d7.jpg" /></p>
+<p>This tab allows you to hide existing properties: you simply need to hover the mouse over a property to display the "Hide" option.</p>
+<p>It is also possible to edit the display order of the properties on your gallery's Photo page, through drag-and-drop.</p>
+<p><strong>Creating a new custom property</strong></p>
+<p>To create a custom property, click on "Create new photo property".</p>
+<p><img alt="New photo property.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-6ae92c9a.jpg" /></p>
+<p>The Label field allows you to choose the new property's name.</p>
+<p>You also need to choose the type of property. Multiple types are available:</p>
+<p><strong>Text:</strong></p>
+<p>Choose the text type if your property's value is a free text (example: a noun, a city...).</p>
+<p><strong>Select:</strong></p>
+<p>Choose the select type if your property's value is a list of restrained options.</p>
+<p>The Add field button allows you to add the available options for your property. In the example below, we have created a School property with 4 available values.</p>
+<p><img alt="Select property.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-5c728505.jpg" /></p>
+<p>In a photo's editing page, administrators can choose the value of this property using a drop-down menu.</p>
+<p><img alt="School property.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-52cb3141.jpg" /></p>
+<p><strong>Radio:</strong></p>
+<p>The Radio type works the same way as the Select type. It also allows you to choose the property's value from a predefined list, but the input is presented using a radio button rather than a drop-down list.</p>
+<p>In the example below, we created an "Image rights" property with two options: yes and no.</p>
+<p><img alt="Radio property.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-206e119f.jpg" /></p>
+<p><strong>Date:</strong></p>
+<p>The Date type is meant to be used for date type properties. It allows you to set the property's value from a calendar.</p>
+<p><img alt="Due date.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-c13aa5be.jpg" /></p>
+<p><strong>EXIF and IPTC types:</strong></p>
+<p>EXIF- and IPTC-type properties allow you to create a custom property that will retrieve the value of an EXIF or IPTC metadata.</p>
+<p>To use this type of property, you first need to go into the plugin's Configuration tab. You need to choose a reference photo in your gallery that has EXIF or IPTC metadata, by entering its digital ID.</p>
+<p><img alt="EXIF IPTC.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-f1ee4b64.jpg" /></p>
+<p>This will allow the plugin to load the list of EXIF and IPTC metadata available on your gallery.</p>
+<p><img alt="EXIF example.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-23c439de.jpg" /></p>
+<p>For example, you can create a Height property that will automatically retrieve the "Height" metadata's value that is saved within your photo; the height will be displayed on your gallery's photo page in pixels.</p>
+<p><img alt="Height value.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-52f485f1.jpg" /></p>
+<p><strong>Viewing the custom properties</strong></p>
+<p>Once you have created a custom property, you can set its value for each photo in the "Additional properties" tab of the photo editor.</p>
+<p><img alt="Image rights.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-442b52a2.jpg" /></p>
+<p>Custom properties are also accessible from the batch manager, when you select a set of photos and you choose the "Change photo properties" option.</p>
+<p><img alt="Batch manager properties.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-97bdf9a6.jpg" /></p>
+<p>If you chose to display custom properties, they will be displayed among other properties in the gallery. Don't forget that the first tab of the Custom Properties' configuration allows you to edit the properties' display order and hide the ones you want to hide.</p>
+<p><img alt="Image rights yes.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-47514661.jpg" /></p>
+<p><strong>Manage Properties options</strong></p>
+<p>The Manage Properties' Configuration tab offers multiple options that we are listing below.</p>
+<p><img alt="Manage properties configuration.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-b5559618.jpg" /></p>
+<ul>
+<li><strong>Adding a field to automatically delete photos at a certain date</strong></li>
+</ul>
+<p>Click on this option to create a "Date"-type field, which, for each photo, will allow you to choose a date at which it will automatically be deleted</p>
+<p><img alt="Delete photos.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-fcd8f683.jpg" /></p>
+<ul>
+<li><strong>Move description into info table</strong></li>
+</ul>
+<p>Click on this option to display the photo's description among your gallery's properties. You will find the Description field in the property list of the plugin's configuration, and you will then be able to choose its display order.</p>
+<p><img alt="Description property.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-905437ee.jpg" /></p>
+<ul>
+<li><strong>Showing the image’s ID</strong></li>
+</ul>
+<p>Click on this option to display the digital ID of each file among properties in the gallery. This feature is also available with the <strong>Show Photo Identifier</strong> plugin.</p>
+<ul>
+<li><strong>Maximum number of fields for the "select" tags and the "radio" buttons</strong></li>
+</ul>
+<p>Set the maximum number of values possible for the "drop-down list"- and "radio button"-type properties here.</p>
+<ul>
+<li><strong>The reference photo for the EXIF and IPTC metadata</strong></li>
+</ul>
+<p>See previous chapter.</p>
+<h3 id="properties-mass-update-updating-the-properties-in-bulk-from-a-csv-file">Properties Mass Update: Updating the properties in bulk from a .csv file</h3>
+<p>Do you wish to update the properties of a set of photos from an existing table (an Excel file, for example)?</p>
+<p>To do this, you need to install the <strong>Properties Mass Update</strong> plugin.</p>
+<div class="admonition info">
+<p class="admonition-title">If you are a Piwigo Cloud plan customer, this plugin is only available from the Enterprise plan and higher</p>
+</div>
+<h3 id="show-photo-identifier-displaying-the-photos-identifier-among-properties">Show Photo Identifier: Displaying the photo's identifier among properties</h3>
+<p>The <strong>Show Photo Identifier</strong> plugin allows you to display a photo's digital identifier on the photo's page, among its metadata and properties.</p>
+<p><img alt="Image ID.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-2ca0d794.jpg" /></p>
+<h3 id="download-counter-displaying-the-number-of-downloads-among-properties">Download Counter: Displaying the number of downloads among properties</h3>
+<p>The <strong>Download Counter</strong> plugin allows you to count the number of downloads of a photo and to display it on the photo's page, among the photo's metadata and properties.</p>
+<p><img alt="Download counter.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-294cb0db.jpg" /></p>
+<h3 id="expiry-date-adding-an-expiry-date-to-a-file">Expiry Date: Adding an expiry date to a file</h3>
+<p>Adding an expiring date to a file can be necessary, to manage a license's validity date, or even the validity of the image rights associated with a photo.</p>
+<p>To do this, you need to install the <strong>Expiry Date</strong> plugin.</p>
+<div class="admonition info">
+<p class="admonition-title">If you are a Piwigo Cloud plan customer, this plugin is only available from the Enterprise plan and higher</p>
+</div>
+<p>Once the plugin has been activated, a new "Expiry date" field appears on each photo, as well as in the batch manager.</p>
+<p><img alt="Expiry date empty.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-722d1d17.jpg" /></p>
+<p>The expiry date is displayed next to the other properties of your gallery.</p>
+<p><img alt="Expiry date.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-46807707.jpg" /></p>
+<p>If you want to hide the expiry date in the gallery, you need to use the <strong>Manage Properties Photo</strong> plugin (see above on this page).</p>
+<p>But what happens when the expiry date is coming?</p>
+<p>To set this, go in the Expiry Date plugin configuration.</p>
+<p><img alt="Expiry date configuration.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-d7d99c2a.jpg" /></p>
+<p>You have multiple options:</p>
+<ul>
+<li><strong>Choosing what Piwigo needs to do when the photos are about to expire</strong></li>
+</ul>
+<p>The Expiry Date plugin allows you to choose what happens when the expiry date is coming: do nothing, automatically delete the photos, automatically archive the photos.</p>
+<p>Archiving the photos allows you to automatically move them to the album of your choice, which you will have created beforehand. This allows you to make the expired photos inaccessible without deleting them from your gallery.</p>
+<p><img alt="Archived photos.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-2903a3ff.jpg" /></p>
+<ul>
+<li><strong>Notifying users who have downloaded the photo</strong></li>
+</ul>
+<p>Select this option to send an email notifying the users who downloaded a photo when it is expiring.</p>
+<p>If you select this option, other choices appear.</p>
+<p><img alt="User notifications.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-0c5881a2.jpg" /></p>
+<p>This way, you can send an email before the expiry date or only at the exact date, and add a custom message in the email sent.</p>
+<ul>
+<li><strong>Notifying the administrators when a photo has expired</strong></li>
+</ul>
+<p>You can send an email to the administrators as soon as a photo's expiry date has come.</p>
+<p>Just like the notifications to users, you can send an email before the expiry date or only at the exact date, and add a custom message in the email sent.</p>
+<h3 id="copyrights-managing-a-files-copyrights">Copyrights: Managing a file's copyrights</h3>
+<p>You may need to link a copyright to an image or a video, in order to specify the rights related to this file (usage, reproduction, distribution...).</p>
+<p>To do this, you need to install the <strong>Copyrights</strong> plugin.</p>
+<p>Once the plugin has been activated, a new "Copyright" property appears when editing a photo in the administration.</p>
+<p><img alt="Copyrights.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-8a90932e.jpg" /></p>
+<p>If a value is chosen among the list of available copyrights, it will be displayed in your gallery with the other properties.</p>
+<p><img alt="Untitled" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-b486b74b.png" /></p>
+<p>By default, the plugin is installed with a predefined copyright list, but you can delete them, edit them, or create new ones in the Copyrights plugin's configuration.</p>
+<p><img alt="Create copyright.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-b41d9515.jpg" /></p>
+<p>The description of a copyright is displayed when hovering the mouse over it in the gallery, and the link opens in a new tab when clicking on the copyright.</p>
+<p><img alt="CC BY.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-ce81eb1d.jpg" /></p>
+<h3 id="edit-filename-editing-a-files-name">Edit Filename: Editing a file's name</h3>
+<p>By default, in Piwigo's photo editor, you can edit the title of the medium when displayed in your gallery, but not the name of the source file.</p>
+<p>If you need to do so, you must install the <strong>Edit Filename</strong> plugin.</p>
+<p>Once this plugin is activated, the name of the source file can be edited through the photo's editing page.</p>
+<p><img alt="Edit Filename.jpg" src="https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-632b69a5.jpg" /></p>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../batch-manager-piwigo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Batch manager">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Batch manager
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../multiple-formats-piwigo/" class="md-footer__link md-footer__link--next" aria-label="Next: Multiple formats">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Multiple formats
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <!--Add link to piwigo.org-->
+<!--Add "· Get help" link after the copyright-->
+<!--Remove "Made With Zensical" generator-->
+
+<div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a href= "https://piwigo.org">Piwigo.org</a>
+      &copy; 2002-2026
+      <span class="pwg_custom_copyright_middledot">·</span>
+      <a href="https://piwigo.org/contact">Get help</a>
+    </div>
+  
+</div>
+      
+        <!--Add "Made with zensical" after the social icons-->
+
+
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/Piwigo/Piwigo" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M216.5 362.5c-66-8-112.5-55.5-112.5-117 0-25 9-52 24-70-6.5-16.5-5.5-51.5 2-66 20-2.5 47 8 63 22.5 19-6 39-9 63.5-9s44.5 3 62.5 8.5c15.5-14 43-24.5 63-22 7 13.5 8 48.5 1.5 65.5 16 19 24.5 44.5 24.5 70.5 0 61.5-46.5 108-113.5 116.5 17 11 28.5 35 28.5 62.5v52c0 15 12.5 23.5 27.5 17.5C441 459.5 512 369 512 257 512 115.5 397 0 255.5 0S0 115.5 0 257c0 111 70.5 203 165.5 237.5 13.5 5 26.5-4 26.5-17.5v-40c-7 3-16 5-24 5-33 0-52.5-18-66.5-51.5-5.5-13.5-11.5-21.5-23-23-6-.5-8-3-8-6 0-6 10-10.5 20-10.5 14.5 0 27 9 40 27.5 10 14.5 20.5 21 33 21s20.5-4.5 32-16c8.5-8.5 15-16 21-21"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/piwigo" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://piwigo.org/basics/newsletter" target="_blank" rel="noopener" title="piwigo.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc.--><path fill="currentColor" d="M61.4 64C27.5 64 0 91.5 0 125.4c0 .9 0 1.7.1 2.6H0v256c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V128h-.1c0-.9.1-1.7.1-2.6 0-33.9-27.5-61.4-61.4-61.4zM464 192.3V384c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192.3l154.8 117.4c31.4 23.9 74.9 23.9 106.4 0zM48 125.4c0-7.4 6-13.4 13.4-13.4h389.2c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7"/></svg>
+    </a>
+  
+  <div class="md-copyright pwg_custom_social_zensical">
+    
+      <span class="pwg_custom_social_middledot">·</span> Made with
+      <a href="https://zensical.org/" target="_blank" rel="noopener">
+        Zensical
+      </a>
+    
+  </div>
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.action.edit","content.action.view","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.top","navigation.tracking","search.highlight"],"redirect":null,"search":"../../assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8dcc8e9c.min.js"></script>
+      
+    
+  </body>
+</html>
