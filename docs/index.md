@@ -1,57 +1,57 @@
 ---
-title: Piwigo Documentation - DAM and photo library software
-description: Piwigo open source photo library management software documentation. All the answers to your questions about using Piwigo are here!
+title: Piwigo-Dokumentation - DAM- und Fotoverwaltungssoftware
+description: Dokumentation der Open-Source-Software Piwigo zur Verwaltung von Fotobibliotheken. Hier finden Sie alle Antworten auf Ihre Fragen zur Nutzung von Piwigo!
 icon: lucide/house
 ---
 
-# Piwigo Documentation
+# Piwigo-Dokumentation
 
 ![image.png](https://ressources.piwigo.com/uploads/c/v/7/cv7jpz6hf8/2026/07/03/20260703190344-3d7abc8a.png)
 
-## Welcome to the Piwigo documentation!
+## Willkommen in der Piwigo-Dokumentation!
 
-Here you can find answers to most of your questions about using Piwigo: importing photos, managing users, plugins and customization…
+Hier finden Sie Antworten auf die meisten Fragen zur Nutzung von Piwigo: Fotos importieren, Benutzer verwalten, Plugins und Anpassungen…
 
-!!! info "Your opinion is valuable !"
-    If you have a comment about this documentation, if you are missing a piece of information, if you notice a mistake : [send us your feedback here](https://piwigo.org/contact)!
+!!! info "Ihre Meinung ist uns wichtig!"
+    Haben Sie eine Anmerkung zu dieser Dokumentation, fehlt Ihnen eine Information oder haben Sie einen Fehler entdeckt? [Schicken Sie uns hier Ihr Feedback](https://de.piwigo.org/kontakt)!
 
-## Quick start
+## Schnellstart
 
 <div class="grid" markdown>
 
-We have summarized the most common questions about the use of Piwigo on one page.  
-:question: [FAQ - The most common questions about Piwigo](faq-most-common-questions-piwigo.md)
+Die häufigsten Fragen zur Nutzung von Piwigo haben wir auf einer Seite zusammengefasst.  
+:question: [FAQ - Häufige Fragen zu Piwigo](faq-haeufige-fragen-zu-piwigo.md)
 
-Read the article below to learn how to browse this website and find answers to your questions!  
-:mag: [How do I browse this documentation?](how-do-i-browse-this-documentation.md)
+Im folgenden Artikel erfahren Sie, wie Sie sich auf dieser Website zurechtfinden und Antworten auf Ihre Fragen finden!  
+:mag: [Wie nutze ich diese Dokumentation?](wie-nutze-ich-diese-dokumentation.md)
 
 </div>
 
-## Browse the documentation
+## Die Dokumentation durchstöbern
 
 <div class="grid pwg-doc-home-list" markdown>
 
 
-- :new: [Start with Piwigo](start-with-piwigo/index.md)
-- :camera: [Import and manage photos](import-and-manage-photos/index.md)
-- :desktop: [Browsing your Piwigo gallery](browsing-your-piwigo-gallery/index.md)
-- :open_file_folder: [Organizing albums](organizing-albums/index.md)
-- :label: [Managing tags](tags-in-piwigo/index.md)
-- :speech_balloon: [Comments and ratings](comments-and-ratings/index.md)
-- :busts_in_silhouette: [Managing users](managing-users/index.md)
+- :new: [Erste Schritte](erste-schritte-mit-piwigo/index.md)
+- :camera: [Fotos importieren und verwalten](fotos-importieren-und-verwalten/index.md)
+- :desktop: [Ihre Galerie erkunden](ihre-piwigo-galerie-erkunden/index.md)
+- :open_file_folder: [Alben organisieren](alben-organisieren/index.md)
+- :label: [Schlagworte verwalten](schlagworte-verwalten/index.md)
+- :speech_balloon: [Kommentare und Bewertungen](kommentare-und-bewertungen/index.md)
+- :busts_in_silhouette: [Benutzer verwalten](benutzer-verwalten/index.md)
 
-<!-- Sépare les liste avec un commentaire HTML -->
+<!-- Trennt die Listen mit einem HTML-Kommentar -->
 
-- :art: [Themes](piwigo-themes/index.md)
-- :gear: [Customizing your gallery](customizing-your-gallery/index.md)
-- :tools: [Administrating Piwigo](administration-piwigo/index.md)
-- :electric_plug: [Plugins](piwigo-plugins/index.md)
-- :mobile_phone: [Mobile apps](mobile-apps/index.md)
-- :technologist: [Host your Piwigo gallery](self-hosting-piwigo/index.md)
-- :question: [FAQ - The most common questions about Piwigo](faq-most-common-questions-piwigo.md)
+- :art: [Erscheinungsbilder](erscheinungsbilder/index.md)
+- :gear: [Ihre Galerie anpassen](ihre-galerie-anpassen/index.md)
+- :tools: [Piwigo administrieren](piwigo-administrieren/index.md)
+- :electric_plug: [Plugins](plugins/index.md)
+- :mobile_phone: [Mobile Apps](mobile-apps/index.md)
+- :technologist: [Piwigo selbst hosten](piwigo-selbst-hosten/index.md)
+- :question: [FAQ - Häufige Fragen zu Piwigo](faq-haeufige-fragen-zu-piwigo.md)
 
 </div>
 
-The modification history for this documentation is listed on the :books: [Modification history](modification-history.md) page
+Die Änderungen an dieser Dokumentation sind auf der Seite :books: [Änderungsverlauf](aenderungsverlauf.md) aufgeführt.
 
-If you are looking for the documentation for developers, please go to the :fontawesome-brands-github: [Piwigo GitHub page](https://github.com/Piwigo/Piwigo/wiki).
+Die Dokumentation für Entwickler finden Sie auf der :fontawesome-brands-github: [GitHub-Seite von Piwigo](https://github.com/Piwigo/Piwigo/wiki).

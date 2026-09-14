@@ -1,15 +1,15 @@
 ---
 icon: lucide/tablet-smartphone
-title: Piwigo mobile apps - Piwigo documentation
-description: Piwigo offers two mobile applications for iOS and Android. Discover their features and download links here.
+title: Mobile Apps von Piwigo - Piwigo-Dokumentation
+description: Piwigo bietet zwei mobile Apps für iOS und Android an. Hier finden Sie ihre Funktionen und die Download-Links.
 ---
 
-# Mobile apps
+# Mobile Apps
 
-Piwigo offers two mobile apps for iOS and Android.
+Piwigo bietet zwei mobile Apps für iOS und Android an.
 
-Read the following articles to discover their features and the links to download them.
+In den folgenden Artikeln erfahren Sie mehr über ihre Funktionen und finden die Links zum Herunterladen.
 
-[The Piwigo mobile app for iOS](piwigo-ios-mobile-app.md)
+[Piwigo für iOS](piwigo-ios-app.md)
 
-[The Piwigo NG mobile app for Android](piwigo-ng-android-mobile-app.md)
+[Piwigo NG für Android](piwigo-ng-android-app.md)

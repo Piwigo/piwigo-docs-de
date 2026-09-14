@@ -47,115 +47,115 @@ edit_uri = "edit/main/docs/"
 # Read more: https://zensical.org/docs/setup/navigation/
 
 nav = [
-    {"Home"= "index.md"},
-    {"Get started" = [
-		"start-with-piwigo/index.md",
-		{"Intro: Piwigo in 2 minutes" = "start-with-piwigo/understand-everything-about-piwigo-in-2-minutes.md"},
-		{"Get started with Piwigo in 15 minutes" = "start-with-piwigo/get-started-with-piwigo-in-15-minutes.md"}
+    {"Startseite" = "index.md"},
+    {"Erste Schritte" = [
+		"erste-schritte-mit-piwigo/index.md",
+		{"Einführung: Piwigo in 2 Minuten" = "erste-schritte-mit-piwigo/piwigo-in-2-minuten-verstehen.md"},
+		{"Mit Piwigo in 15 Minuten loslegen" = "erste-schritte-mit-piwigo/mit-piwigo-in-15-minuten-loslegen.md"}
 	]},
-	{"Import and manage photos" = [
-		"import-and-manage-photos/index.md",
-		{"Importing photos into Piwigo" = "import-and-manage-photos/importing-photos-into-piwigo.md"},
-		{"Compatible file formats" = "import-and-manage-photos/file-formats-compatible-piwigo.md"},
-		{"Modifying or deleting photos" = "import-and-manage-photos/modifying-or-deleting-photos.md"},
-		{"Batch manager" = "import-and-manage-photos/batch-manager-piwigo.md"},
-		{"Properties and metadata" = "import-and-manage-photos/properties-metadata-photos-piwigo.md"},
-		{"Multiple formats" = "import-and-manage-photos/multiple-formats-piwigo.md"}
+	{"Fotos importieren und verwalten" = [
+		"fotos-importieren-und-verwalten/index.md",
+		{"Fotos in Piwigo importieren" = "fotos-importieren-und-verwalten/fotos-in-piwigo-importieren.md"},
+		{"Kompatible Dateiformate" = "fotos-importieren-und-verwalten/kompatible-dateiformate.md"},
+		{"Fotos bearbeiten oder löschen" = "fotos-importieren-und-verwalten/fotos-bearbeiten-oder-loeschen.md"},
+		{"Stapelverarbeitung" = "fotos-importieren-und-verwalten/stapelverarbeitung.md"},
+		{"Eigenschaften und Metadaten" = "fotos-importieren-und-verwalten/eigenschaften-und-metadaten-von-fotos.md"},
+		{"Mehrere Formate" = "fotos-importieren-und-verwalten/mehrere-formate.md"}
 	]},
-	{"Browsing your gallery" = [
-		"browsing-your-piwigo-gallery/index.md",
-		{"Introduction to your gallery" = "browsing-your-piwigo-gallery/your-gallery-introduction.md"},
-		{"The album page in your gallery" = "browsing-your-piwigo-gallery/albums-in-your-gallery.md"},
-		{"The photo page in your gallery" = "browsing-your-piwigo-gallery/the-photo-page-in-your-gallery.md"},
-		{"Tags in your gallery" = "browsing-your-piwigo-gallery/tags-in-your-gallery.md"},
-		{"Search for a photo" = "browsing-your-piwigo-gallery/search-for-a-photo-in-your-gallery.md"},
-		{"Manage favorites" = "browsing-your-piwigo-gallery/manage-your-favorites.md"},
-		{"Create collections" = "browsing-your-piwigo-gallery/user-collections-plugin-piwigo.md"}
+	{"Ihre Galerie erkunden" = [
+		"ihre-piwigo-galerie-erkunden/index.md",
+		{"Einführung in Ihre Galerie" = "ihre-piwigo-galerie-erkunden/einfuehrung-in-ihre-galerie.md"},
+		{"Die Albumseite in Ihrer Galerie" = "ihre-piwigo-galerie-erkunden/alben-in-ihrer-galerie.md"},
+		{"Die Fotoseite in Ihrer Galerie" = "ihre-piwigo-galerie-erkunden/die-fotoseite-in-ihrer-galerie.md"},
+		{"Schlagworte in Ihrer Galerie" = "ihre-piwigo-galerie-erkunden/schlagworte-in-ihrer-galerie.md"},
+		{"Ein Foto suchen" = "ihre-piwigo-galerie-erkunden/ein-foto-in-ihrer-galerie-suchen.md"},
+		{"Favoriten verwalten" = "ihre-piwigo-galerie-erkunden/favoriten-verwalten.md"},
+		{"Sammlungen erstellen" = "ihre-piwigo-galerie-erkunden/sammlungen-user-collections-plugin.md"}
 	]},
-	{"Organizing albums" = [
-		"organizing-albums/index.md",
-		{"Albums and sub-albums" = "organizing-albums/albums-and-sub-albums-piwigo.md"},
-		{"Create an album" = "organizing-albums/how-to-create-an-album.md"},
-		{"Managing albums" = "organizing-albums/managing-your-albums.md"},
-		{"Editing an album" = "organizing-albums/editing-an-album.md"},
-		{"Permissions and albums visibility" = "organizing-albums/permissions-and-album-visibility.md"},
-		{"Smart Albums" = "organizing-albums/smart-albums-plugin-piwigo.md"}
+	{"Alben organisieren" = [
+		"alben-organisieren/index.md",
+		{"Alben und Unteralben" = "alben-organisieren/alben-und-unteralben.md"},
+		{"Ein Album erstellen" = "alben-organisieren/wie-erstelle-ich-ein-album.md"},
+		{"Alben verwalten" = "alben-organisieren/alben-verwalten.md"},
+		{"Ein Album bearbeiten" = "alben-organisieren/ein-album-bearbeiten.md"},
+		{"Zugriffsrechte und Sichtbarkeit von Alben" = "alben-organisieren/zugriffsrechte-und-sichtbarkeit-von-alben.md"},
+		{"Smart Albums" = "alben-organisieren/intelligente-alben-smart-albums-plugin.md"}
 	]},
-	{"Managing tags" = [
-		"tags-in-piwigo/index.md",
-		{"Introduction to tags" = "tags-in-piwigo/tags-introduction.md"},
-		{"Creating and managing tags" = "tags-in-piwigo/creating-and-managing-tags.md"},
-		{"Auto tag with AI (Tag Recognition)" = "tags-in-piwigo/tag-recognition-plugin-piwigo.md"}
+	{"Schlagworte verwalten" = [
+		"schlagworte-verwalten/index.md",
+		{"Einführung in Schlagworte" = "schlagworte-verwalten/einfuehrung-in-schlagworte.md"},
+		{"Schlagworte erstellen und verwalten" = "schlagworte-verwalten/schlagworte-erstellen-und-verwalten.md"},
+		{"Automatisch verschlagworten mit KI (Tag Recognition)" = "schlagworte-verwalten/automatische-verschlagwortung-tag-recognition-plugin.md"}
 	]},
-	{"Comments and rating" = [
-		"comments-and-ratings/index.md",
-		{"Managing comments" = "comments-and-ratings/managing-comments.md"},
-		{"Plugins for comment management" = "comments-and-ratings/plugins-comments-management-piwigo.md"},
-		{"Managing ratings (votes)" = "comments-and-ratings/managing-ratings-votes.md"}
+	{"Kommentare und Bewertungen" = [
+		"kommentare-und-bewertungen/index.md",
+		{"Kommentare verwalten" = "kommentare-und-bewertungen/kommentare-verwalten.md"},
+		{"Plugins zur Kommentarverwaltung" = "kommentare-und-bewertungen/plugins-zur-kommentarverwaltung.md"},
+		{"Bewertungen verwalten" = "kommentare-und-bewertungen/bewertungen-verwalten.md"}
 	]},
-	{"Managing users" = [
-		"managing-users/index.md",
-		{"Introduction to user management" = "managing-users/users-introduction.md"},
-		{"Log in to Piwigo" = "managing-users/log-in-to-piwigo.md"},
-		{"Users statuses" = "managing-users/user-statuses.md"},
-		{"Creating and managing users" = "managing-users/creating-and-managing-users.md"},
-		{"Privacy levels" = "managing-users/privacy-levels.md"},
-		{"User notifications" = "managing-users/sending-notification-emails-to-users.md"},
-		{"User groups" = "managing-users/user-groups.md"},
-		{"Contributors (Community plugin)" = "managing-users/community-plugin-piwigo.md"}
+	{"Benutzer verwalten" = [
+		"benutzer-verwalten/index.md",
+		{"Einführung in die Benutzerverwaltung" = "benutzer-verwalten/einfuehrung-in-die-benutzerverwaltung.md"},
+		{"Bei Piwigo anmelden" = "benutzer-verwalten/bei-piwigo-anmelden.md"},
+		{"Benutzerstatus" = "benutzer-verwalten/benutzerstatus.md"},
+		{"Benutzer erstellen und verwalten" = "benutzer-verwalten/benutzer-erstellen-und-verwalten.md"},
+		{"Datenschutzstufen" = "benutzer-verwalten/datenschutzstufen.md"},
+		{"Benachrichtigungen an Benutzer" = "benutzer-verwalten/benachrichtigungs-e-mails-an-benutzer-senden.md"},
+		{"Benutzergruppen" = "benutzer-verwalten/benutzergruppen.md"},
+		{"Mitwirkende (Community-Plugin)" = "benutzer-verwalten/mitwirkende-community-plugin.md"}
 	]},
-	{"Themes" = [
-		"piwigo-themes/index.md",
-		{"Introduction to themes" = "piwigo-themes/piwigo-themes-introduction.md"},
-		{"Modus" = "piwigo-themes/modus-theme-piwigo.md"},
-		{"Bootstrap Darkroom" = "piwigo-themes/bootstrap-darkroom-theme-piwigo.md"}
+	{"Erscheinungsbilder" = [
+		"erscheinungsbilder/index.md",
+		{"Einführung in Erscheinungsbilder" = "erscheinungsbilder/einfuehrung-in-erscheinungsbilder.md"},
+		{"Modus" = "erscheinungsbilder/modus-erscheinungsbild.md"},
+		{"Bootstrap Darkroom" = "erscheinungsbilder/bootstrap-darkroom-erscheinungsbild.md"}
 	]},
-	{"Customizing your gallery" = [
-		"customizing-your-gallery/index.md",
-		{"Customizing options" = "customizing-your-gallery/customization-options-for-your-gallery.md"},
-		{"Languages" = "customizing-your-gallery/managing-languages-available-gallery-piwigo.md"},
-		{"Customizing the menu" = "customizing-your-gallery/customizing-piwigo-gallery-menu-navbar.md"},
-		{"Adding pages" = "customizing-your-gallery/add-pages-to-piwigo-gallery.md"},
-		{"Customization plugins" = "customizing-your-gallery/customizing-piwigo-gallery-plugins.md"},
-		{"CSS customization" = "customizing-your-gallery/customize-css-code-piwigo-gallery.md"},
-		{"Custom banner" = "customizing-your-gallery/adding-a-custom-banner-to-your-gallery.md"}
+	{"Ihre Galerie anpassen" = [
+		"ihre-galerie-anpassen/index.md",
+		{"Anpassungsoptionen" = "ihre-galerie-anpassen/anpassungsoptionen-fuer-ihre-galerie.md"},
+		{"Sprachen" = "ihre-galerie-anpassen/verfuegbare-sprachen-der-galerie-verwalten.md"},
+		{"Menü anpassen" = "ihre-galerie-anpassen/menue-und-navigationsleiste-anpassen.md"},
+		{"Seiten hinzufügen" = "ihre-galerie-anpassen/seiten-zur-galerie-hinzufuegen.md"},
+		{"Plugins zur Anpassung" = "ihre-galerie-anpassen/plugins-zur-galerie-anpassung.md"},
+		{"CSS-Anpassung" = "ihre-galerie-anpassen/css-code-der-galerie-anpassen.md"},
+		{"Eigenes Banner" = "ihre-galerie-anpassen/eigenes-banner-zur-galerie-hinzufuegen.md"}
 	]},
-	{"Administrating Piwigo" = [
-		"administration-piwigo/index.md",
-		{"Statistics & History" = "administration-piwigo/viewing-statistics-piwigo-gallery.md"},
-		{"Maintenance" = "administration-piwigo/maintenance-piwigo-gallery.md"},
-		{"Plugins for admins" = "administration-piwigo/plugins-for-administrators.md"}
+	{"Piwigo administrieren" = [
+		"piwigo-administrieren/index.md",
+		{"Statistik & Verlauf" = "piwigo-administrieren/statistiken-der-galerie-ansehen.md"},
+		{"Wartung" = "piwigo-administrieren/wartung-der-galerie.md"},
+		{"Plugins für Administratoren" = "piwigo-administrieren/plugins-fuer-administratoren.md"}
 	]},
 	{"Plugins" = [
-		"piwigo-plugins/index.md",
-		{"Plugins on Piwigo" = "piwigo-plugins/plugins-piwigo-presentation.md"}
+		"plugins/index.md",
+		{"Plugins in Piwigo" = "plugins/plugins-in-piwigo-vorstellung.md"}
 	]},
-	{"Mobile apps" = [
+	{"Mobile Apps" = [
 		"mobile-apps/index.md",
-		{"Piwigo NG for Android" = "mobile-apps/piwigo-ng-android-mobile-app.md"},
-		{"Piwigo for iOS" = "mobile-apps/piwigo-ios-mobile-app.md"}
+		{"Piwigo NG für Android" = "mobile-apps/piwigo-ng-android-app.md"},
+		{"Piwigo für iOS" = "mobile-apps/piwigo-ios-app.md"}
 	]},
-	{"Piwigo self-hosting" = [
-		"self-hosting-piwigo/index.md",
-		{"Install guides" = [
-            {"Requirements" = "self-hosting-piwigo/install-guides/requirements.md"},
-            {"Manual installation" = "self-hosting-piwigo/install-guides/manual-install.md"},
-            {"Installation Docker" = "self-hosting-piwigo/install-guides/docker-install.md"}
+	{"Piwigo selbst hosten" = [
+		"piwigo-selbst-hosten/index.md",
+		{"Installationsanleitungen" = [
+            {"Voraussetzungen" = "piwigo-selbst-hosten/installationsanleitungen/voraussetzungen.md"},
+            {"Manuelle Installation" = "piwigo-selbst-hosten/installationsanleitungen/manuelle-installation.md"},
+            {"Docker-Installation" = "piwigo-selbst-hosten/installationsanleitungen/docker-installation.md"}
         ]},
-        {"Update guides" = [
-            {"Automatic Update" = "self-hosting-piwigo/update-guides/automatic-update.md"},
-            {"Manual Update" = "self-hosting-piwigo/update-guides/manual-update.md"},
-            {"Docker Update" = "self-hosting-piwigo/update-guides/docker-update.md"}
+        {"Update-Anleitungen" = [
+            {"Automatisches Update" = "piwigo-selbst-hosten/update-anleitungen/automatisches-update.md"},
+            {"Manuelles Update" = "piwigo-selbst-hosten/update-anleitungen/manuelles-update.md"},
+            {"Docker-Update" = "piwigo-selbst-hosten/update-anleitungen/docker-update.md"}
         ]},
-		{"FTP import and sync" = "self-hosting-piwigo/importing-and-synchronizing-ftp-photos.md"},
-		{"Local configuration" = "self-hosting-piwigo/editing-configuration-localfiles-editor-plugin.md"},
-		{"Move your Piwigo" = "self-hosting-piwigo/move-your-piwigo-to-another-server.md"},
-		{"Issues with thumbnails generation" = "self-hosting-piwigo/issues-generation-thumbnails-representative.md"},
+		{"FTP-Import und Synchronisierung" = "piwigo-selbst-hosten/fotos-per-ftp-importieren-und-synchronisieren.md"},
+		{"Lokale Konfiguration" = "piwigo-selbst-hosten/lokale-konfiguration-bearbeiten-localfiles-editor.md"},
+		{"Piwigo umziehen" = "piwigo-selbst-hosten/piwigo-auf-einen-anderen-server-umziehen.md"},
+		{"Probleme bei der Vorschaubild-Erstellung" = "piwigo-selbst-hosten/probleme-bei-der-vorschaubild-erstellung.md"}
 	]},
-	{"Legal" = [
-	    "legal/index.md",
-		{"Terms and Conditions of Use" = "legal/terms-of-service.md"},
-		{"Privacy Policy" = "legal/privacy.md"}
+	{"Rechtliches" = [
+	    "rechtliches/index.md",
+		{"Nutzungsbedingungen" = "rechtliches/nutzungsbedingungen.md"},
+		{"Datenschutzerklärung" = "rechtliches/datenschutzerklaerung.md"}
 	]}
 ]
 
