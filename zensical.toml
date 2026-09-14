@@ -27,7 +27,7 @@ site_author = "Piwigo"
 # The site_url is the canonical URL for your site. When building online
 # documentation you should set this.
 # Read more: https://zensical.org/docs/setup/basics/#site_url
-site_url = "https://doc.piwigo.org/"
+site_url = "https://doc-de.piwigo.org/"
 
 # The copyright notice appears in the page footer and can contain an HTML
 # fragment.
@@ -223,7 +223,7 @@ favicon = "assets/favicon.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "en"
+language = "de"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
@@ -421,8 +421,8 @@ accent = "custom"
 # ----------------------------------------------------------------------------
 [project.extra]
 alternate = [
-    { name = "Français", link = "https://doc-fr.piwigo.org/", lang = "fr" },
-    #{ name = "Deutsch", link = "https://doc-de.piwigo.org/", lang = "de" },
+    { name = "English", link = "https://doc.piwigo.org/", lang = "en" },
+    { name = "Français", link = "https://doc-fr.piwigo.org/", lang = "fr" }
 ]
 
 [[project.extra.social]]
@@ -435,7 +435,7 @@ link = "https://www.linkedin.com/company/piwigo"
 
 [[project.extra.social]]
 icon = "fontawesome/regular/envelope"
-link = "https://piwigo.org/basics/newsletter"
+link = "https://de.piwigo.org/newsletter"
 
 [project.extra.analytics]
 provider = "custom"
