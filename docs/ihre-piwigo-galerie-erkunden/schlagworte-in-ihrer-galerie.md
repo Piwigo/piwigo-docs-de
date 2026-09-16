@@ -75,7 +75,7 @@ Möchten Sie auf der Startseite Ihrer Galerie eine Schlagwortwolke anzeigen, wie
 
 Dazu aktivieren Sie das Plugin **PWG Stuffs**.
 
-[Mehr erfahren](schlagworte-in-ihrer-galerie/pwg-stuffs-plugin.md)
+[Mehr erfahren](../ihre-galerie-anpassen/plugins-zur-galerie-anpassung/pwg-stuffs-bloecke-in-ihrer-galerie-hinzufuegen.md)
 
 ### Menu Tags: Alle Schlagworte im Menü auflisten
 

@@ -29,7 +29,7 @@ Es wird zum Beispiel verwendet, um:
 
 Klicken Sie unten, um die vollständige Dokumentation zu PWG Stuffs zu lesen.
 
-[PWG Stuffs: Blöcke in Ihrer Galerie hinzufügen](../ihre-piwigo-galerie-erkunden/schlagworte-in-ihrer-galerie/pwg-stuffs-plugin.md)
+[PWG Stuffs: Blöcke in Ihrer Galerie hinzufügen](../ihre-galerie-anpassen/plugins-zur-galerie-anpassung/pwg-stuffs-bloecke-in-ihrer-galerie-hinzufuegen.md)
 
 ## Fotorama: eine andere Diashow für Ihre Galerie
 

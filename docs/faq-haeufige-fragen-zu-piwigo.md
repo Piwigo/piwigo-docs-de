@@ -111,7 +111,7 @@ Klicken Sie auf den Pfeil, um die Antwort auf eine Frage anzuzeigen.
     #copyright{display: none;}
     ```
     
-    Zusätzlich zur Standard-Fusszeile können Sie auch eine eigene Fusszeile erstellen, indem Sie mit dem Plugin [PWG Stuffs](ihre-piwigo-galerie-erkunden/schlagworte-in-ihrer-galerie/pwg-stuffs-plugin.md) einen eigenen Block anlegen. 
+    Zusätzlich zur Standard-Fusszeile können Sie auch eine eigene Fusszeile erstellen, indem Sie mit dem Plugin [PWG Stuffs](ihre-galerie-anpassen/plugins-zur-galerie-anpassung/pwg-stuffs-bloecke-in-ihrer-galerie-hinzufuegen.md) einen eigenen Block anlegen. 
     
 - Wie füge ich meiner Piwigo-Website ein eigenes Banner / Foto hinzu?
     

@@ -33,7 +33,7 @@ Nach der Anmeldung werden Sie zu Ihrer Galerie weitergeleitet.
 
 Wenn die Startseite direkt ein Anmeldeformular anzeigen soll, ist das mit dem Plugin **PWG Stuffs** möglich.
 
-[Mehr erfahren](../ihre-piwigo-galerie-erkunden/schlagworte-in-ihrer-galerie/pwg-stuffs-plugin.md)
+[Mehr erfahren](../ihre-galerie-anpassen/plugins-zur-galerie-anpassung/pwg-stuffs-bloecke-in-ihrer-galerie-hinzufuegen.md)
 
 ## Wie gelange ich in den Administrationsbereich von Piwigo?
 
