@@ -155,7 +155,8 @@ nav = [
 	{"Rechtliches" = [
 	    "rechtliches/index.md",
 		{"Nutzungsbedingungen" = "rechtliches/nutzungsbedingungen.md"},
-		{"Datenschutzerklärung" = "rechtliches/datenschutzerklaerung.md"}
+		{"Datenschutzrichtlinie" = "rechtliches/datenschutzerklaerung.md"},
+		{"DPA" = "rechtliches/dpa.md"}
 	]}
 ]
 

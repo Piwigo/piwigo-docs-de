@@ -1,73 +1,75 @@
-# Datenschutzerklärung
+# Datenschutzrichtlinie
 
-PigoLabs (der „Herausgeber“) ist der Herausgeber von Piwigo.com (die „Website“) und der zugehörigen Dienste (die „Dienste“), die der Herausgeber auf der Website anbietet. Die folgende Datenschutzerklärung regelt den Umgang des Herausgebers mit den personenbezogenen Daten, die er erhebt, wenn Sie die Website und die Dienste nutzen.
+PigoLabs SAS (im Folgenden als "Herausgeber" bezeichnet) ist der Herausgeber der Website Piwigo.com (im Folgenden als "Website" bezeichnet) und der damit verbundenen Dienstleistungen (im Folgenden als "Dienstleistungen" bezeichnet). Die vorliegenden Bestimmungen regeln die Verwaltung der personenbezogenen Daten, die der Herausgeber bei der Nutzung der Website und der Dienstleistungen erhebt.
 
-Der Herausgeber schützt die Privatsphäre seiner Benutzer, indem er die geltende französische Gesetzgebung einhält.
+Der Herausgeber schützt die Privatsphäre seiner Nutzer durch Einhaltung der geltenden französischen Gesetze.
 
-Die in diesem Dokument beschriebenen Regeln gelten für personenbezogene Daten, die im Rahmen Ihrer Nutzung der Website und der Dienste erhoben werden. Sie gelten nicht für Partnerseiten oder für die Praktiken anderer Unternehmen, auf die der Herausgeber keinen Einfluss hat.
+Die in diesem Dokument beschriebenen Regeln gelten für die personenbezogenen Daten, die im Rahmen der Nutzung der Website und der Dienstleistungen durch Sie erhoben werden, und gelten weder für Partnerwebsites noch für die Praktiken anderer Unternehmen, auf die der Herausgeber keinen Einfluss hat.
 
 ## 1. Besucher der Website und aggregierte Statistiken
 
-Wie die meisten Website-Betreiber erhebt der Herausgeber nicht personenbezogene Informationen der Art, die Webbrowser und Server üblicherweise bereitstellen, etwa den Browsertyp, die bevorzugte Sprache, die verweisende Website sowie Datum und Uhrzeit jeder Anfrage eines Besuchers. Der Herausgeber erhebt nicht personenbezogene Informationen, um besser zu verstehen, wie Besucher seine Website und seine Dienste nutzen. So kann der Herausgeber beispielsweise die beliebtesten Galerien auf der Website beobachten, um besser zu verstehen, wie Besucher die Dienste nutzen, und diese entsprechend zu verbessern.
+Wie die meisten Internetdienstleister erhebt der Herausgeber nicht-personenbezogene Daten, die von Software (Webbrowser und Server) bereitgestellt werden, wie z. B. den Typ des Webbrowsers, die bevorzugte Sprache, die verweisende Website sowie Datum und Uhrzeit jeder Anfrage eines Website-Besuchers. Das Ziel des Herausgebers bei der Erhebung dieser nicht-personenbezogenen Informationen ist es, besser zu verstehen, wie Besucher die Website und die Dienstleistungen nutzen. Der Herausgeber kann beispielsweise die Besuche einer beliebten Fotogalerie auf der Website analysieren, um die Nutzung der Dienstleistungen besser zu verstehen und diese entsprechend zu verbessern.
 
-Der Herausgeber kann diese Informationen öffentlich anzeigen oder an Dritte weitergeben. Personenbezogene Informationen gibt der Herausgeber jedoch nur wie nachfolgend beschrieben weiter.
+Der Herausgeber kann aggregierte, nicht-personenbezogene Daten veröffentlichen, z. B. durch die Veröffentlichung eines Berichts über die Nutzung der Website oder der Dienstleistungen. Der Herausgeber gibt jedoch unter keinen Umständen personenbezogene oder identifizierende Daten preis, außer unter den nachstehend beschriebenen Bedingungen.
 
-## 2. Erhebung personenbezogener Informationen
+## 2. Erhebung von personenbezogenen oder identifizierenden Daten
 
-Der Herausgeber erhebt ausserdem potenziell personenbezogene Informationen wie die IP-Adresse (Internet Protocol) von Besuchern auf Piwigo.com-Konten. Der Herausgeber gibt diese personenbezogenen Informationen ausschliesslich an den Inhaber des jeweiligen Piwigo.com-Kontos weiter.
+Der Herausgeber erhebt auch potenziell identifizierende Daten wie die IP-Adresse (Internet Protocol) der Besucher von Piwigo.com-Konten. Der Herausgeber wird diese Daten nur an die Administratoren der Piwigo.com-Konten weitergeben, die der Besucher besucht hat.
 
-Manche Besucher der Website entscheiden sich dafür, auf eine Weise mit dem Herausgeber zu interagieren, die es erfordert, dass der Herausgeber personenbezogene Informationen erhebt. Menge und Art der erhobenen Informationen hängen von der Art der Interaktion ab. Beispielsweise bitten wir Besucher, die ein Konto auf der Website eröffnen, einen Benutzernamen und eine E-Mail-Adresse anzugeben.
+Wenn bestimmte Besucher der Website sich entscheiden, mit der Website zu interagieren, um Aktionen durchzuführen, die erfordern, dass der Herausgeber personenbezogene oder identifizierende Informationen erhebt, hängt die Menge und Art der Informationen, die der Herausgeber erhebt, von der Art der Interaktion ab. Der Herausgeber kann beispielsweise einen Besucher, der sich für ein Piwigo.com-Konto registriert, auffordern, einen Benutzernamen und eine E-Mail-Adresse anzugeben.
 
-Besucher können die Angabe personenbezogener Informationen jederzeit verweigern, mit dem Vorbehalt, dass sie dadurch möglicherweise bestimmte Aktivitäten im Zusammenhang mit der Website nicht ausführen können.
+Nutzer können sich weigern, diese personenbezogenen Informationen bereitzustellen, mit der Folge, dass sie bestimmte Interaktionen mit der Website nicht durchführen können.
 
-Die Zahlungsplattform übermittelt dem Herausgeber in keiner Weise vertrauliche Informationen, die für die Zahlung benötigt werden. Beispielsweise kennt, speichert oder erhebt der Herausgeber keine Kreditkartennummern.
+Der Zahlungsdienstleister wird dem Herausgeber unter keinen Umständen die vertraulichen Informationen zur Verfügung stellen, die für die Bezahlung der Dienstleistungen erforderlich sind. Der Herausgeber wird keine finanziellen Daten wie Kreditkartennummern erheben.
 
-## 3. Schutz bestimmter personenbezogener Informationen
+## 3. Schutz personenbezogener oder identifizierender Daten
 
-Der Herausgeber kann potenziell personenbezogene und personenbezogene Informationen in den folgenden Situationen weitergeben, wobei diese Aufzählung nicht abschliessend ist:
+Der Herausgeber kann personenbezogene oder identifizierende Daten in den folgenden Fällen offenlegen, ohne dass diese Aufzählung abschließend ist:
 
-1.  ausschliesslich an diejenigen seiner Mitarbeitenden, Auftragnehmer und verbundenen Organisationen, die (i) diese Informationen kennen müssen, um sie im Auftrag des Herausgebers zu verarbeiten oder um die auf der Website verfügbaren Dienste zu erbringen, und (ii) die sich verpflichtet haben, sie nicht an Dritte weiterzugeben. Einige dieser Mitarbeitenden, Auftragnehmer und verbundenen Organisationen können sich ausserhalb Ihres Heimatlandes befinden; durch die Nutzung der Dienste des Herausgebers stimmen Sie der Übermittlung solcher Informationen an sie zu.
-2.  ausschliesslich dann, wenn der Herausgeber gesetzlich dazu verpflichtet ist oder wenn er in gutem Glauben der Ansicht ist, dass die Weitergabe vernünftigerweise erforderlich ist, um das Eigentum oder die Rechte des Herausgebers, Dritter oder der Allgemeinheit zu schützen.
+1. nur an seine Mitarbeiter, Führungskräfte oder Partner (i), die diese Informationen kennen müssen, um sie im Namen des Herausgebers zu nutzen oder um eine auf der Website verfügbare Dienstleistung zu erbringen, und (ii), die zugestimmt haben, sie nicht an Dritte weiterzugeben. Durch die Nutzung der Website und der vom Herausgeber angebotenen Dienstleistungen akzeptieren Sie die Übermittlung solcher Informationen an Mitarbeiter, Führungskräfte oder Partner, die sich nicht in Ihrem Land befinden.
+2. wenn das geltende Recht dies erfordert oder wenn der Herausgeber in gutem Glauben der Ansicht ist, dass die Offenlegung angemessen ist, um das Eigentum oder die Rechte des Herausgebers, eines Dritten oder der Öffentlichkeit zu schützen.
 
-Wenn Sie ein registrierter Benutzer der Website sind und Ihre E-Mail-Adresse angegeben haben, kann Ihnen der Herausgeber gelegentlich eine E-Mail senden, um Sie über neue Funktionen zu informieren, Sie um Ihre Meinung zu bitten oder Sie einfach darüber auf dem Laufenden zu halten, was es Neues beim Herausgeber, auf der Website und bei den Diensten gibt. Für diese Art von Informationen nutzen wir in erster Linie unsere verschiedenen Produkt-Blogs, daher gehen wir davon aus, solche E-Mails auf ein Minimum zu beschränken. Der Herausgeber trifft alle vernünftigerweise erforderlichen Massnahmen, um potenziell personenbezogene und personenbezogene Informationen vor unbefugtem Zugriff, unbefugter Nutzung, Veränderung oder Vernichtung zu schützen.
+Wenn Sie ein registrierter Nutzer der Website sind, kann der Herausgeber Ihnen gelegentlich eine E-Mail senden, um Sie über neue Funktionen zu informieren, Ihre Meinung einzuholen oder Sie einfach über die Entwicklung der Website, der Dienstleistungen oder des Herausgebers auf dem Laufenden zu halten. Der Herausgeber wird hauptsächlich seine Blogs nutzen, um diese Art von Informationen zu kommunizieren, daher sollten wir die Anzahl solcher E-Mails minimieren. Der Herausgeber ergreift alle angemessenen Maßnahmen, um personenbezogene oder potenziell identifizierende Daten vor unbefugtem Zugriff oder unbefugter Nutzung, Veränderung oder Zerstörung zu schützen.
 
-Der Herausgeber wird potenziell personenbezogene und personenbezogene Informationen wie E-Mail-Adressen an niemanden vermieten oder verkaufen.
+Der Herausgeber verpflichtet sich, dass Ihre personenbezogenen Daten, insbesondere E-Mail-Adressen, nicht vermietet, verkauft, ausgetauscht oder geteilt werden.
 
 ## 4. Cookies
 
-Ein Cookie ist eine Zeichenfolge mit Informationen, die eine Website auf dem Computer eines Besuchers speichert und die der Browser des Besuchers bei jedem erneuten Besuch an die Website übermittelt. Der Herausgeber verwendet Cookies, um Besucher, ihre Nutzung der Website und der Dienste sowie ihre Einstellungen auf der Website zu erkennen und nachzuverfolgen.
+Ein Cookie ist eine Information in Form einer Zeichenkette, die eine Website auf dem Computer des Besuchers speichert und die der Webbrowser des Besuchers der Website bei jedem Besuch zur Verfügung stellt. Der Herausgeber verwendet Cookies, um Besucher zu identifizieren und zu verfolgen, wie sie die Dienstleistungen nutzen sowie ihre Präferenzen auf der Website.
 
-Besucher, die nicht möchten, dass Cookies auf ihrem Computer gespeichert werden, sollten ihren Browser vor der Nutzung der Website und der Dienste so einstellen, dass Cookies abgelehnt werden, mit dem Nachteil, dass bestimmte Funktionen möglicherweise nicht richtig funktionieren.
+Besucher, die keine Cookies auf ihrem Computer speichern möchten, sollten ihren Browser so konfigurieren, dass er Cookies ablehnt, bevor sie die Website und die Dienstleistungen nutzen. Dies hat zur Folge, dass einige Funktionen nicht mehr korrekt funktionieren.
 
-## 5. DSGVO, Cookies von Drittanbietern und externe Dienste
+## 5. DSGVO, Cookies von Dritten und externe Dienstleistungen
 
-Die DSGVO (Datenschutz-Grundverordnung) wurde geschaffen, um personenbezogene Daten und die Privatsphäre von Benutzern zu schützen, insbesondere im Internet. Lange bevor es die DSGVO gab, entsprach Piwigo.com bereits dem „Geist“ der DSGVO, indem so wenige personenbezogene Daten wie möglich gespeichert und so wenige externe Dienste oder Cookies von Drittanbietern wie möglich verwendet wurden.
+Die DSGVO (Datenschutz-Grundverordnung) zielt darauf ab, die personenbezogenen Daten der Nutzer, insbesondere im Internet, zu schützen. Schon lange vor der Anwendung der DSGVO hat Piwigo.com den Geist dieser Verordnung respektiert, indem die Menge der erhobenen persönlichen Informationen minimiert und externe Dienstleistungen oder "Cookies von Dritten" vermieden wurden.
 
-Auf der Website Piwigo.com und auf den Konten unter *.piwigo.com verwenden wir keine externen Webanalyse-Tools (wie Google Analytics), keine externen Schriftarten (wie Google Font), kein externes Instant-Messaging-Skript und kein externes Werbeskript. Deshalb bitten wir Sie nicht um Ihre Einwilligung zu Cookies von Drittanbietern: Wir laden schlicht keine! Wir wissen, dass das sehr ungewöhnlich ist, aber es ist kein Versehen unsererseits.
+Auf der Piwigo.com-Präsentationswebsite oder auf Piwigo.com-Konten werden keine externen Skripte für die Traffic-Analyse geladen (kein Google Analytics), keine Schriftarten (Google Fonts), keine externen Skripte für den Instant-Messaging-Dienst, keine Skripte für das Laden von Werbung. Deshalb werden Sie nicht um Zustimmung zur Verwendung von "Drittanbieter-Cookies" gebeten: Es gibt keine!
 
-Für den Betrieb unseres Geschäfts nutzen wir einen externen Dienst. Einige der von den Servern von Piwigo.com gesendeten E-Mails, insbesondere solche zu Kontovorgängen wie Benachrichtigungen zu Ihrem Abonnement, werden über den Dienst Mailjet versendet. Mailjet stammt ursprünglich aus Frankreich, wurde 2019 von Mailgun (USA) übernommen, das seinerseits 2021 von Sinch (Schweden) übernommen wurde. Mailjet ist DSGVO-konform. Um es klar zu sagen: Mailjet ist es nicht gestattet, Daten, auf die das Unternehmen über die E-Mails technisch zugreifen könnte, zu nutzen oder zu verkaufen.
+Wir nutzen einen externen Dienst für unseren Betrieb. Ein Teil der von den Piwigo.com-Servern gesendeten E-Mails, insbesondere solche, die den Betrieb der Konten betreffen, wie z. B. Benachrichtigungen über das Ende des Abonnements, wird über den Dienst Mailjet versendet. Mailjet ist ursprünglich ein französischer Dienst, der 2019 von Mailgun (USA) und 2021 von Sinch (Schweden) übernommen wurde. Mailjet ist DSGVO-konform.
 
-Das Geschäftsmodell von Piwigo.com beruht auf den Abonnements der Kunden. Die personenbezogenen Daten, die wir speichern (etwa die E-Mail-Adresse, um Sie zu kontaktieren, oder die IP-Adresse aus technischen Gründen), werden niemals ausserhalb des Betriebs des Hosting-Dienstes verwendet. Ihre Daten werden niemals verkauft oder mit Partnern ausgetauscht. Niemals.
+Das Geschäftsmodell von Piwigo.com basiert auf den Abonnements der Kunden. Die personenbezogenen Daten, die wir speichern (E-Mail-Adresse, um Sie kontaktieren zu können, IP-Adresse aus technischen Gründen der Identifizierung), werden niemals für andere Zwecke als den Betrieb des Dienstes genutzt. Diese Daten werden nicht an Partner verkauft oder mit ihnen ausgetauscht. Niemals.
 
-## 6. Aufbewahrung, Einsicht, Änderung, Berichtigung und Löschung personenbezogener Daten
+## 6. Speicherung, Zugriffsrecht, Änderung, Berichtigung und Löschung von Daten
 
-Ihre personenbezogenen Daten werden für die Dauer der Nutzung der Website und der Dienste sowie für einen Zeitraum von 90 Tagen ab der Kündigung Ihres Kontos aufbewahrt. Damit soll verhindert werden, dass dieselbe URL unmittelbar nach Abschluss der Löschung wiederverwendet wird.
+Ihre personenbezogenen Daten werden für die Dauer der Nutzung der Website und der Dienstleistungen gespeichert, mit einer Frist von 90 Tagen ab der Löschung Ihres Kontos. Dies dient dazu, die sofortige Wiederverwendung derselben URL nach der Löschung zu vermeiden.
 
-Die personenbezogenen Daten, die aus Ihren Aktivitäten entstehen (IP-Adresse, Aktionen auf den Websites usw.), werden ab ihrer Erhebung für einen Zeitraum von 24 Monaten (das gesetzliche Minimum) aufbewahrt. Nach Ablauf dieser Frist werden sie entweder gelöscht oder anonymisiert. Die auf Ihrem Computer gespeicherten Cookies sind weniger als 24 Monate gültig und werden bei Ablauf automatisch von Ihrem Webbrowser gelöscht.
+Die aus Ihren Aktivitäten resultierenden personenbezogenen Daten (IP-Adresse, Aktionen auf den Websites usw.) werden für einen Zeitraum von 24 Monaten (gesetzliche Mindestdauer) ab ihrer Erhebung gespeichert. Nach Ablauf dieser Frist werden sie entweder anonymisiert oder gelöscht. Die auf Ihrem Computer platzierten Cookies haben eine Gültigkeitsdauer von weniger als 24 Monaten und werden automatisch von Ihrem Internetbrowser bei Ablauf gelöscht.
 
-Gemäss der französischen Gesetzgebung (Art. 40 des Gesetzes über Datenverarbeitung, Dateien und Freiheiten vom 6. Januar 1978 in der durch das Gesetz vom 6. August 2004 geänderten Fassung) haben Sie das Recht auf Einsicht, Änderung, Berichtigung und Löschung Ihrer personenbezogenen Daten.
+Gemäß der geltenden französischen Gesetzgebung (Art. 40 des Gesetzes über Informatik, Dateien und Freiheiten vom 6. Januar 1978, geändert durch das Gesetz vom 6. August 2004) haben Sie das Recht auf Zugriff, Änderung, Berichtigung und Löschung Ihrer personenbezogenen Daten.
 
-Senden Sie dazu einfach über die Seite „Kontakt“ eine E-Mail an den Herausgeber.
+Um dieses Recht auszuüben, genügt es, eine E-Mail an den Herausgeber über die Seite "Kontakt" zu senden.
 
-## 7. Änderungen der Datenschutzerklärung
+## 7. Änderungen der Datenschutzrichtlinie
 
-Der Herausgeber kann seine Datenschutzerklärung jederzeit und nach eigenem Ermessen ändern. Wenn Sie diese Website nach einer Änderung dieser Datenschutzerklärung weiterhin nutzen, gilt dies als Zustimmung zu dieser Änderung.
+Der Herausgeber behält sich das Recht vor, im Einklang mit dem Gesetz, insbesondere den Bestimmungen von Artikel R132-1 und folgenden des Verbrauchergesetzbuchs, diese Bestimmungen nach eigenem Ermessen und zu jedem Zeitpunkt zu ändern. Im Falle einer Änderung dieser Bestimmungen sind die geänderten Bedingungen ab ihrer Veröffentlichung auf der Website anwendbar. Jede Nutzung der Website unterliegt dann der zu diesem Zeitpunkt geltenden Datenschutzrichtlinie.
 
-Der Herausgeber empfiehlt den Besuchern, diese Seite regelmässig auf Änderungen der Datenschutzerklärung zu überprüfen.
+Der Herausgeber empfiehlt seinen Besuchern, diese Seite regelmäßig zu überprüfen, um über mögliche Änderungen informiert zu sein.
 
-*Einige Formulierungen dieser Datenschutzerklärung wurden von [Automattic.com](http://automattic.com/privacy/) übernommen, das seine Datenschutzerklärung freundlicherweise unter einer Creative-Commons-Sharealike-Lizenz zur Verfügung stellt. Diese Datenschutzerklärung wurde teilweise aus der [französischen Version](http://fr.piwigo.com/privacy) übersetzt.*
-
-??? note "Verlauf der Datenschutzerklärung"
-    - 2026-01-30: Angaben zur Nationalität von Mailjet und Verzicht auf Helpscout
+??? note "Verlauf der Datenschutzrichtlinie"
+    - 2026-01-30: Details zur Nationalität von Mailjet und Aufgabe von Helpscout
     - 2020-10-13: Hinweis zur DSGVO
-    - 2010-12-21: erste Version
+    - 2010-12-21: Erste Version
+
+
+!!! quote ""
+    Einige der Begriffe in dieser Datenschutzrichtlinie wurden von [Automattic.com](https://automattic.com/privacy/) übernommen, die freundlicherweise ihre Datenschutzrichtlinie unter einer Creative Commons Sharealike-Lizenz zur Verfügung gestellt haben. Diese Datenschutzrichtlinie wurde teilweise aus der [französischen Version](https://doc-fr.piwigo.org/mentions-legales/confidentialite/) übersetzt.

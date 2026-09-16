@@ -4,5 +4,6 @@ icon: lucide/scale
 
 # Rechtliches
 
-- [Datenschutzerklärung](datenschutzerklaerung.md)
+- [Datenschutzrichtlinie](datenschutzerklaerung.md)
 - [Nutzungsbedingungen](nutzungsbedingungen.md)
+- [Vereinbarung zur Auftragsverarbeitung (DPA)](dpa.md)

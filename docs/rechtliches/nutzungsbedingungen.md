@@ -1,244 +1,242 @@
-# Allgemeine Nutzungsbedingungen
+# Nutzungsbedingungen
 
 Bitte lesen Sie diese Allgemeinen Nutzungsbedingungen sorgfältig durch, bevor Sie die Website Piwigo.com nutzen.
 
-PigoLabs, Betreiberin von Piwigo.com, ist eine vereinfachte Aktiengesellschaft (SAS) französischen Rechts, eingetragen im Handels- und Gesellschaftsregister von Nantes unter der Nummer 528 932 114. Umsatzsteuer-Identifikationsnummer (EU): FR 29 528932114. Der Sitz der Gesellschaft befindet sich in 12 avenue Jules Verne, Bat. A, 44230 Saint-Sébastien-sur-Loire, Frankreich. Verantwortlicher für die Veröffentlichung ist Pierrick LE GALL. PIWIGO ist eine beim INPI unter der Nummer 10 3 704 098 eingetragene Marke. Die Website wird von OVHcloud, 2 rue Kellermann, 59100 Roubaix, Frankreich, gehostet.
+PigoLabs, Herausgeber von Piwigo.com, ist eine vereinfachte Aktiengesellschaft. Eingetragen im Handels- und Gesellschaftsregister unter der Nummer RCS Nantes 528 932 114. Umsatzsteuer-Identifikationsnummer FR 29 528932114. Firmensitz: 12 avenue Jules Verne, Bat. A, 44230 Saint-Sébastien-sur-Loire, Frankreich. Der verantwortliche Herausgeber ist Pierrick LE GALL. PIWIGO ist eine eingetragene Marke unter der Nummer 10 3 704 098 beim INPI. Gehostet von OVHcloud, 2 rue Kellermann, 59100 Roubaix, Frankreich. 
 
 ## 1. Gegenstand
 
-Die vorliegenden Nutzungsbedingungen legen die Regeln fest, die für die von PigoLabs (der „Herausgeber“) erstellte Website Piwigo.com (die „Website“) gelten, sowie die Bedingungen für die Nutzung der Dienste (die „Dienste“), die der Herausgeber auf der Website anbietet.
+Diese Allgemeinen Nutzungsbedingungen legen die Regeln für den Zugang zur Website piwigo.com (im Folgenden als "Website" bezeichnet), die von PigoLabs (im Folgenden als "Herausgeber" bezeichnet) entwickelt wurde, sowie die Nutzungsbedingungen der vom Herausgeber auf oder über die Website angebotenen Dienstleistungen (im Folgenden als "Dienstleistungen" bezeichnet) fest.
 
-## 2. Annahme der Nutzungsbedingungen
+## 2. Annahme der Allgemeinen Nutzungsbedingungen
 
-Der Zugriff auf die Website und die Nutzung der Dienste setzen die vollständige Annahme dieser Nutzungsbedingungen voraus. Wenn Sie mit diesen Nutzungsbedingungen nicht einverstanden sind, müssen Sie die Nutzung der Website und der vom Herausgeber angebotenen Dienste einstellen. Diese Nutzungsbedingungen gelten ausschliesslich für die Website und die damit verbundenen Dienste, nicht jedoch für Websites Dritter.
+Die Verbindung zur Website und die Nutzung der Dienstleistungen implizieren die vorbehaltlose Annahme dieser Allgemeinen Nutzungsbedingungen. Falls Sie diese Allgemeinen Nutzungsbedingungen nicht akzeptieren, bitten wir Sie, sich abzumelden und weder die Website noch die vom Herausgeber angebotenen Dienstleistungen zu nutzen. Diese Allgemeinen Nutzungsbedingungen gelten nur für die Website und die damit verbundenen Dienstleistungen, nicht jedoch für Drittwebsites.
 
-Der Herausgeber behält sich das Recht vor, diese Nutzungsbedingungen im gesetzlich zulässigen Rahmen, insbesondere gemäss Artikel R132-1 des französischen Verbrauchergesetzbuchs (Code de la consommation), jederzeit zu ändern. Im Falle einer Änderung gelten die aktualisierten Bedingungen ab dem Datum ihrer Veröffentlichung auf der Website. Jede Nutzung der Website unterliegt den zum jeweiligen Zeitpunkt gültigen Nutzungsbedingungen.
+Der Herausgeber behält sich das Recht vor, im Rahmen der gesetzlichen Bestimmungen, insbesondere gemäß Artikel R132-1 des Verbrauchergesetzbuchs, die Allgemeinen Nutzungsbedingungen jederzeit zu ändern. Bei Änderungen der Allgemeinen Nutzungsbedingungen sind die geänderten Bedingungen ab ihrer Veröffentlichung auf der Website anwendbar. Jede Nutzung der Website unterliegt dann den zu diesem Zeitpunkt geltenden Allgemeinen Nutzungsbedingungen.
 
-Diese Nutzungsbedingungen unterliegen französischem Recht. Für jeden Verstoss gegen diese Bedingungen und allgemein für alle Streitigkeiten im Zusammenhang mit ihrer Durchführung, Auslegung oder Gültigkeit sind die französischen Gerichte zuständig.
+Die Allgemeinen Nutzungsbedingungen sind nach französischem Recht auszulegen und anzuwenden. Die Nichteinhaltung einer der Bestimmungen der Allgemeinen Nutzungsbedingungen und allgemein alle Schwierigkeiten bei deren Durchführung, Auslegung oder Gültigkeit unterliegen der französischen Gerichtsbarkeit.
 
-## 3. Beschreibung der Dienste
+## 3. Beschreibung der Dienstleistungen
 
-Der Herausgeber bietet auf der Website die folgenden Dienste an: (i) Speicherung, Veröffentlichung und Teilen von digitalen Bildern oder Videos, (ii) Hosting von Websites, auf denen die gehosteten Inhalte präsentiert werden.
+Der Herausgeber bietet auf der Website Dienstleistungen zum (i) Speichern, Veröffentlichen und Teilen von digitalen Bildern oder Videos sowie (ii) zum Hosten von Websites, die die gehosteten Inhalte präsentieren, an.
 
-Um die Dienste nutzen zu können, benötigt der Benutzer einen Internetzugang, entweder direkt über seinen Computer oder über ein anderes Gerät wie beispielsweise ein Mobiltelefon. Alle mit diesem Zugang verbundenen Kosten trägt der Benutzer, der ausserdem sämtliche für die Verbindung mit dem Internet erforderliche Ausrüstung selbst bereitstellen muss.
+Um die Dienstleistungen zu nutzen, muss der Nutzer über einen Internetzugang verfügen, entweder direkt über seinen Computer oder über andere Geräte wie Mobiltelefone oder persönliche Assistenten. Die eventuell anfallenden Kosten für diesen Zugang sind vom Nutzer zu tragen, der alle notwendigen Geräte beschaffen muss, um diese Verbindung zum Internet herzustellen.
 
-Es liegt in der Verantwortung des Benutzers, sicherzustellen, dass seine Hard- und Software die Dienste weder stört noch beeinträchtigt. Der Benutzer verpflichtet sich, jedes Gerät und jede Software, die Störungen der Dienste verursacht, unverzüglich zu trennen.
+Es liegt in der Verantwortung des Nutzers, sicherzustellen, dass seine Hardware und Software die Dienstleistungen nicht stören oder beeinträchtigen. Der Nutzer verpflichtet sich, jedes Gerät oder jede Software, die Störungen verursachen, sofort zu trennen.
 
-## 4. Verfügbarkeit der Dienste
+## 4. Verfügbarkeit der Dienstleistungen
 
-Die Website und die Dienste sind für alle Benutzer 24 Stunden am Tag und 7 Tage die Woche zugänglich. Der Herausgeber haftet jedoch nicht für Unterbrechungen des Zugangs zur Website oder zu ihren Diensten, unabhängig davon, ob diese beabsichtigt sind oder nicht.
+Die Website und die Dienstleistungen sind rund um die Uhr, sieben Tage die Woche für alle Nutzer zugänglich. Der Herausgeber kann jedoch nicht für Unterbrechungen des Zugangs zur Website und zu den Dienstleistungen, ob freiwillig oder unfreiwillig, verantwortlich gemacht werden.
 
-Der Herausgeber behält sich das Recht vor, ohne vorherige Ankündigung und ohne Entschädigung die Website vorübergehend oder dauerhaft zu schliessen oder den Zugang zu einem oder mehreren Diensten einzuschränken, um insbesondere Aktualisierungen, Änderungen oder Anpassungen der Betriebsabläufe, der Serverinfrastruktur oder der Verfügbarkeit der Dienste vorzunehmen.
+Der Herausgeber behält sich das Recht vor, ohne vorherige Ankündigung oder Entschädigung die Website oder den Zugang zu einer oder mehreren Dienstleistungen vorübergehend oder endgültig zu schließen, um Aktualisierungen, Änderungen oder Anpassungen der Betriebsmethoden, Server und Zugangszeiten vorzunehmen, ohne dass diese Liste abschließend ist.
 
-Der Herausgeber behält sich das Recht vor, an der Website und den Diensten alle Änderungen vorzunehmen, die er für den ordnungsgemässen Betrieb oder die Weiterentwicklung der Website und der Dienste für erforderlich hält.
+Der Herausgeber behält sich das Recht vor, alle Änderungen an der Website und den Dienstleistungen vorzunehmen, die er für den ordnungsgemäßen Betrieb oder die Weiterentwicklung der Website und der Dienstleistungen für notwendig erachtet.
 
-Der Herausgeber behält sich das Recht vor, die Nutzung der Dienste einzuschränken, wenn eine missbräuchliche Nutzung festgestellt wird. Als missbräuchliche Nutzung gelten insbesondere, jedoch nicht abschliessend:
+Der Herausgeber behält sich das Recht vor, die Nutzung der Dienstleistungen zu beschränken, wenn ein ungewöhnlicher Gebrauch festgestellt wird. Zu diesen ungewöhnlichen Nutzungen gehören, ohne dass diese Aufzählung abschließend ist:
 
-- eine im Verhältnis zur Anzahl der Besucher des Benutzerkontos übermässige Nutzung von Speicherplatz
-- die Speicherung von Daten ohne Veröffentlichung im Benutzerkonto
-- die Nutzung gespeicherter Daten durch eine externe Website (Hotlinking)
-- die Anzeige aller oder eines Teils der von der Website stammenden Inhalte auf einer externen Website
-- die Verwendung von Framing-Techniken, durch die das Benutzerkonto innerhalb einer Seite einer externen Website angezeigt werden kann
-das Vorhandensein von Links von Websites, die gegen die öffentliche Ordnung oder die guten Sitten verstossen, gewalttätigen, pornografischen oder pädophilen Charakter haben, die Menschenwürde verletzen können oder dazu bestimmt sind, verbotene oder illegale Gegenstände, Substanzen oder Werke zu zeigen oder zu verkaufen
+- übermäßige Nutzung des Speicherplatzes im Verhältnis zur Anzahl der Besucher des Nutzerkontos
+- Speicherung von Daten ohne Veröffentlichung auf dem Nutzerkonto
+- übermäßige Nutzung von Daten durch eine externe Website (Hotlink)
+- Anzeige von Inhalten der Website auf einer externen Website, ganz oder teilweise
+- Verwendung von Frames, die das Nutzerkonto innerhalb einer Seite einer externen Website erscheinen lassen
+- Vorhandensein von Links von Websites, die gegen die guten Sitten verstoßen, gewalttätig, pornografisch oder pädophil sind, die die Menschenwürde verletzen oder dazu bestimmt sind, verbotene oder illegale Gegenstände, Substanzen und/oder Werke auszustellen oder zu verkaufen.
 
-Zu den Massnahmen, die der Herausgeber ergreifen kann, gehören insbesondere, jedoch nicht abschliessend: (i) Speicherkontingente oder -beschränkungen, (ii) Beschränkungen des Zugangs zu den Diensten über einen bestimmten Zeitraum, (iii) Sperrung oder Schliessung des Benutzerkontos.
+Die vom Herausgeber dann umgesetzten Beschränkungen umfassen insbesondere, ohne dass diese Aufzählung abschließend ist: (i) Speicherplatzkontingent oder -beschränkung, (ii) Kontingent oder Beschränkung der Anzahl der Zugriffe auf die Dienstleistungen während eines bestimmten Zeitraums, (iii) Aussetzung und anschließende Schließung des Nutzerkontos.
 
-Obwohl der Herausgeber die Dienste auf einer redundanten Plattform mit Sicherungskopien auf mehreren Servern bereitstellt, übernimmt er keine Gewähr für den Fall, dass über die Dienste übermittelte Inhalte gelöscht oder nicht gespeichert werden. Den Benutzern wird daher empfohlen, eine Sicherungskopie der auf der Website gespeicherten Fotos aufzubewahren, um das Risiko eines Verlusts zu verringern.
+Obwohl der Herausgeber die Dienstleistungen auf einer redundanten Plattform mit Backups auf mehreren Servern anbietet, gibt der Herausgeber keine Garantie für die Löschung oder den Speicherfehler von Inhalten, die über die Dienstleistungen der Website übertragen werden. Daher ist es ratsam, dass der Nutzer eine Sicherungskopie der auf der Website gespeicherten Fotos aufbewahrt, um sich vor Verlust zu schützen.
 
-Im Rahmen der Dienste können Mitteilungen der Website oder des Herausgebers versandt werden, beispielsweise Nachrichten zum Betrieb und zur Weiterentwicklung der Dienste sowie Informationsmitteilungen.
+Die Dienstleistungen können zu Mitteilungen von der Website oder dem Herausgeber führen, wie z. B. Nachrichten über die Funktionsweise und Entwicklung der Dienstleistungen oder aktuelle Mitteilungen.
 
-## 5. Registrierung
+## 5. Registrierungsbedingungen
 
-Ist der Benutzer minderjährig, so erklärt und bestätigt er, dass er die Erlaubnis seiner Eltern oder seines gesetzlichen Vormunds eingeholt hat, sich zu registrieren und die Dienste zu nutzen. Der Inhaber der elterlichen Sorge verpflichtet sich, für die Einhaltung dieser Nutzungsbedingungen durch den Benutzer einzustehen.
+Falls der Nutzer eine minderjährige natürliche Person ist, erklärt und bestätigt der Nutzer, die Erlaubnis seiner Eltern oder des/der Inhabers/Inhaber der elterlichen Sorge für die Registrierung und Nutzung der Dienstleistungen eingeholt zu haben. Der/Die Inhaber/Inhaber der elterlichen Sorge hat/haben zugestimmt, für die Einhaltung aller Bestimmungen dieser Allgemeinen Nutzungsbedingungen durch den Nutzer zu bürgen.
 
-Für die Registrierung bei den Diensten ist die Angabe bestimmter Informationen wie Name und E-Mail-Adresse erforderlich. Während der Nutzung der Dienste können zusätzliche Informationen angefordert werden. Der Benutzer verpflichtet sich, zutreffende und aktuelle Angaben zu machen.
+Die Registrierung auf der Website erfordert die Angabe von Informationen wie Name und E-Mail-Adresse. Weitere Informationen können während der Nutzung der Dienstleistungen angefordert werden. Sie verpflichten sich, uns bei jeder Anfrage genaue und aktuelle Informationen zur Verfügung zu stellen.
 
-Bei der Registrierung wählt der Benutzer eine eindeutige Kennung und ein persönliches Passwort. Der Benutzer ist allein für die Verwendung und die Vertraulichkeit dieser Zugangsdaten verantwortlich.
+Bei der Registrierung auf der Website wählt der Nutzer eine eindeutige Kennung und ein streng persönliches Passwort. Der registrierte Nutzer ist der einzige, der berechtigt ist, die persönliche Kennung und das Passwort zu verwenden, und verpflichtet sich, diese vertraulich zu behandeln.
 
-Der Benutzer verpflichtet sich, den Herausgeber unverzüglich zu informieren über (i) jede unbefugte Nutzung seines Kontos und/oder Passworts, (ii) jede Sicherheitsverletzung, die sein Konto betrifft, (iii) jede ungewöhnliche Änderung seiner Inhalte.
+Der Nutzer verpflichtet sich, den Herausgeber unverzüglich zu informieren über (i) jede nicht autorisierte Nutzung seines Kontos und/oder Passworts, (ii) jeden Angriff auf die Sicherheit seines Kontos, (iii) jede ungewöhnliche Änderung seines Inhalts.
 
-Der Herausgeber erinnert die Benutzer daran, die notwendigen Vorkehrungen zu treffen, um einen Identitätsdiebstahl zu verhindern, insbesondere bei der Nutzung ungesicherter Internetzugänge wie öffentlichem WLAN: (i) Abmelden nach jeder Sitzung, (ii) Verzicht auf die Verwendung automatischer Anmeldefunktionen.
+Der Herausgeber erinnert den Nutzer daran, die notwendigen Maßnahmen zu ergreifen, um Identitätsdiebstahl auf der Website und bei den Dienstleistungen zu verhindern. In diesem Zusammenhang wird der Nutzer auf folgende Punkte hingewiesen, falls ein unsicheres Zugangsmittel (öffentliches WLAN, Internetcafé) verwendet wird: (i) Abmelden nach jeder Sitzung, (ii) Nicht aktivieren der Option "Automatische Anmeldung" bei der Identifizierung auf dem Nutzerkonto.
 
-Jede Unregelmässigkeit im Zusammenhang mit einem Konto kann über das auf der Website verfügbare Kontaktformular gemeldet werden.
+Um Anomalien auf einem Konto zu melden, verwenden Sie bitte das auf der Website verfügbare Kontaktformular.
 
-## 6. Preise und Zahlungsbedingungen
+## 6. Preise und Zahlungsmodalitäten
 
-Es gelten die Preise, die zum Zeitpunkt der Bestätigung der Bestellung auf der Website angegeben sind. Preisänderungen gelten nicht für bereits laufende Abonnements oder Bestellungen.
+Die anwendbaren Preise sind die auf der Website zum Zeitpunkt der Bestätigung der Bestellung angegebenen Preise. Keine Preisänderung wird auf laufende Abonnements und/oder Bestellungen angewendet.
 
-Die Preise sind in Euro angegeben und verstehen sich ohne Mehrwertsteuer, die anhand des Landes und des Mehrwertsteuerstatus des Kunden berechnet wird.
+Die Preise sind in Euro angegeben. Die Tarife sind ohne Mehrwertsteuer angegeben, die je nach Land des Kunden und ob er über eine Umsatzsteuer-Identifikationsnummer verfügt, berechnet wird.
 
-Die Zahlung für die Dienste erfolgt online über ein sicheres Zahlungssystem. Die ausgewählten Anbieter sind PayPal (Online-Zahlungsplattform) und Stripe (Online-Zahlungsdienstleister). Die gesamte Kommunikation zwischen der Website und der Zahlungsplattform ist verschlüsselt, und die Plattform übermittelt dem Herausgeber keine vertraulichen Zahlungsinformationen. Der Herausgeber wird über eine verschlüsselte Antwort des Anbieters über die Annahme der Zahlung informiert, und auf Grundlage dieses Status bestätigt die Website das Abonnement.
+Die Bezahlung der Dienstleistungen erfolgt online über ein sicheres Bezahlsystem. Die ausgewählten Anbieter sind PayPal (Online-Bankinstitut) und Stripe (Online-Bezahlplattform). Alle Kommunikationen zwischen der Website und dem Zahlungsanbieter sind verschlüsselt, und der Anbieter gibt dem Herausgeber niemals die vertraulichen Informationen weiter, die für die Bezahlung der Dienstleistungen erforderlich sind. Der Herausgeber wird über die Annahme der Zahlung durch eine verschlüsselte Rückmeldung des Anbieters informiert, und je nach positivem oder negativem Ergebnis des Zahlungsstatus wird die Website die Bestellung bestätigen.
 
-Die für die Zahlung gemachten Angaben sind für den Benutzer verbindlich. Bei fehlerhaften Angaben haftet der Herausgeber nicht für etwaige Folgen.
+Die bei der Zahlung übermittelten Informationen sind für den Nutzer verbindlich; bei Fehlern in den vom Nutzer bereitgestellten Informationen kann der Herausgeber nicht für die daraus resultierenden Folgen verantwortlich gemacht werden.
 
-Gemäss Artikel L.121-20-2 des französischen Verbrauchergesetzbuchs (Code de la consommation) kann das Widerrufsrecht nicht für Dienstleistungen ausgeübt werden, deren Ausführung vor Ablauf der gesetzlichen Widerrufsfrist begonnen hat.
+Gemäß Artikel L.121-20-2 des Verbrauchergesetzbuchs kann das Widerrufsrecht nicht für die Erbringung von Dienstleistungen ausgeübt werden, deren Ausführung vor Ablauf der Frist von sieben Werktagen begonnen hat.
 
 ## 7. Nutzungsbeschränkungen
 
-Der Benutzer ist für alle Inhalte verantwortlich:
+Der Nutzer ist für alle Inhalte verantwortlich, die er:
 
-- die er Dritten zugänglich macht
-- die er per E-Mail oder elektronischer Nachricht versendet
-- die er in den Diensten speichert
-- die er veröffentlicht und Dritten zur Verfügung stellt
-- die er aus den Diensten herunterlädt oder in die Dienste hochlädt
-- die er auf andere Weise über die Dienste übermittelt
+- Dritten zugänglich macht,
+- per E-Mail oder elektronischer Nachricht versendet,
+- auf den Dienstleistungen speichert,
+- veröffentlicht und Dritten zur Verfügung stellt,
+- von oder zu den Dienstleistungen herunterlädt,
+- auf andere Weise über die Dienstleistungen übermittelt.
 
-Dem Benutzer ist ausserdem bewusst, dass alle über die Dienste öffentlich zugänglich gemachten Inhalte in der alleinigen Verantwortung ihres Urhebers verbleiben, da der Herausgeber keinerlei Kontrolle über diese Inhalte ausübt. Der Herausgeber hat keine allgemeine Pflicht, die von den Benutzern in den Diensten gespeicherten Inhalte zu überwachen.
+Der Nutzer ist sich zudem bewusst, dass jeder öffentlich zugängliche Inhalt, der von einem der Nutzer der Dienstleistungen online gestellt wird, in der Verantwortung dieses Nutzers liegt, wobei der Herausgeber keine Kontrolle über diese Inhalte ausübt. Der Herausgeber hat keine allgemeine Überwachungspflicht für die von den Nutzern auf seinen Dienstleistungen gespeicherten Inhalte.
 
-Der Benutzer verpflichtet sich, die geltenden Gesetze und Vorschriften einzuhalten und ausschliesslich Inhalte zu verwenden, an denen er die erforderlichen Rechte besitzt, deren Verbreitung der Rechteinhaber ausdrücklich zugestimmt hat oder die frei von Rechten sind.
+Der Nutzer verpflichtet sich, die geltenden Gesetze und Vorschriften einzuhalten und nur Inhalte zu verwenden, über die er die Rechte besitzt, für die der Rechteinhaber seine ausdrückliche Zustimmung zur Verbreitung erteilt hat oder die frei von Rechten sind.
 
-Zur Klarstellung: Das französische Gesetzbuch über geistiges Eigentum (Code de la propriété intellectuelle) verbietet jede vollständige oder teilweise Wiedergabe oder Vervielfältigung eines Werks ohne die Zustimmung des Urhebers oder seiner Rechtsnachfolger.
+Zur Erinnerung: Das Gesetz über geistiges Eigentum verbietet jede vollständige oder teilweise Vervielfältigung oder Darstellung eines Werks ohne Zustimmung des Autors oder seiner Rechtsnachfolger.
 
-Der Benutzer sichert dem Herausgeber zu, dass er die Rechte besitzt, die für die Veröffentlichung der auf der Website oder durch die Nutzung der Dienste zur Verfügung gestellten Inhalte erforderlich sind. Zu diesen Rechten gehören insbesondere Persönlichkeitsrechte, Urheberrechte, Markenrechte und Rechte an sonstigen Kennzeichen.
+Der Nutzer garantiert dem Herausgeber, dass er über die notwendigen Rechte zur Veröffentlichung der auf der Website oder durch die Nutzung der Dienstleistungen veröffentlichten Inhalte verfügt. Unter Rechten sind insbesondere Persönlichkeitsrechte, Urheberrechte, Markenrechte und andere Unterscheidungszeichen zu verstehen.
 
-Sie dürfen auf der Website und in den Diensten keine Inhalte hochladen, die nicht für alle Altersgruppen geeignet sind. Damit soll verhindert werden, dass Minderjährige Zugang zu Inhalten erhalten, die nicht für sie bestimmt sind.
+Es ist Ihnen untersagt, Inhalte, die nicht "für alle Altersgruppen geeignet" sind, auf der Website und den Dienstleistungen zu veröffentlichen, um den Zugang von minderjährigen Internetnutzern zu Inhalten, die nicht für sie bestimmt sind, zu verhindern.
 
-Bei der Nutzung der Dienste dürfen Sie keinerlei Handlungen vornehmen, einschliesslich Ansehen, Herunterladen, Versenden, Verbreiten, Bearbeiten, Übermitteln, Einstellen, Veröffentlichen oder sonstiger Handlungen, die gegen französisches Recht oder die französische öffentliche Ordnung verstossen oder die Rechte Dritter verletzen würden.
+Es ist Ihnen im Rahmen der Nutzung der Dienstleistungen untersagt, Handlungen jeglicher Art (insbesondere Konsultation, Download, Versand, Verbreitung, Bearbeitung, Übertragung, Online-Stellung, Veröffentlichung oder auf andere Weise) vorzunehmen, die gegen das französische Recht verstoßen, die öffentliche Ordnung in Frankreich beeinträchtigen oder die Rechte Dritter verletzen.
 
-Als Benutzer ist es Ihnen insbesondere, jedoch nicht abschliessend, untersagt:
+Als Nutzer ist es Ihnen insbesondere untersagt (ohne dass diese Aufzählung abschließend ist):
 
-- den normalen Fluss der über die Dienste ausgetauschten Daten zu stören, zu verlangsamen, zu blockieren oder zu verändern, die Geschwindigkeit des Durchlaufs von Inhalten in den Diensten so zu beschleunigen, dass die Funktionsweise der Dienste verändert oder beeinträchtigt wird, oder eine andere Handlung mit vergleichbarer störender Wirkung auf die Funktionsfähigkeit der Dienste vorzunehmen. Gemäss Artikel 323-1 ff. des französischen Strafgesetzbuchs (Code pénal) kann der Herausgeber gegen jeden Benutzer, der diese Bestimmungen nicht einhält, strafrechtlich vorgehen.
-- sich in betrügerischer Absicht Zugang zu den Informationssystemen des Herausgebers zu verschaffen, darin zu verbleiben, in sie einzugreifen oder sie zu stören, insbesondere zu den Diensten, den Servern oder den mit den Diensten verbundenen Netzwerken, oder die Bedingungen, Verfahren, allgemeinen Regeln oder regulatorischen Bestimmungen nicht einzuhalten, die für die mit den Diensten verbundenen Netzwerke gelten. Gemäss Artikel 323-1 ff. des französischen Strafgesetzbuchs (Code pénal) kann der Herausgeber gegen jeden Benutzer, der diese Bestimmungen nicht einhält, strafrechtlich vorgehen.
-- Fotos oder andere Inhalte zu verbreiten, die gegen die öffentliche Ordnung oder die guten Sitten verstossen
-- die Dienste zweckentfremdet für Propaganda, Missionierung, Kundenwerbung oder Anwerbung zu nutzen
-- Informationen mit kommerziellem oder werblichem Charakter oder Informationen, die Werbung für Tabak, Alkohol oder andere regulierte Substanzen, Produkte oder Dienstleistungen darstellen, zu veröffentlichen
-- Fotos oder andere Inhalte zu verbreiten, die die Persönlichkeitsrechte Dritter verletzen oder die verleumderisch, beleidigend, obszön oder sexuell explizit sind, unabhängig davon, ob es sich um reale Personen, Zeichnungen oder sogar durch eine Form künstlicher Intelligenz erzeugte Inhalte handelt, die pornografisch, anstössig oder gewalttätig sind oder zu Diskriminierung, politischer Gewalt, Rassismus, Fremdenfeindlichkeit, Sexismus oder Homophobie aufrufen
-- unter Verstoss gegen die Datenschutzgesetze Informationen zu veröffentlichen, die die Identifizierung natürlicher Personen ohne deren Zustimmung ermöglichen, insbesondere deren Nachname, Post- und/oder E-Mail-Adresse, Telefonnummer, Foto, Ton- oder audiovisuelle Aufnahme
+- den normalen Datenfluss im Rahmen der Dienstleistungen zu stören, zu verlangsamen, zu blockieren oder zu verändern, die Anzeigegeschwindigkeit der Inhalte der Dienstleistungen so zu beschleunigen, dass die Funktionsweise der Dienstleistungen verändert oder beeinträchtigt wird, oder jede andere Handlung vorzunehmen, die eine gleichwertige Störung der Funktionalitäten der Dienstleistungen bewirkt. Gemäß den Artikeln 323-1 ff. des Strafgesetzbuchs können vom Herausgeber strafrechtliche Verfahren gegen den Nutzer eingeleitet werden, der diese Bestimmungen nicht einhält.
+- unbefugt auf die Informationssysteme des Herausgebers, insbesondere der Dienstleistungen, der Server, der mit den Dienstleistungen verbundenen Netzwerke, zuzugreifen, sich darin aufzuhalten, sie zu behindern oder zu stören, oder sich zu weigern, die erforderlichen Bedingungen, Verfahren, allgemeinen Regeln oder Vorschriften einzuhalten, die für die mit den Dienstleistungen verbundenen Netzwerke gelten. Gemäß den Artikeln 323-1 ff. des Strafgesetzbuchs können vom Herausgeber strafrechtliche Verfahren gegen den Nutzer eingeleitet werden, der diese Bestimmungen nicht einhält.
+- Fotografien und andere Inhalte zu verbreiten, die gegen die öffentliche Ordnung oder die guten Sitten verstoßen,
+- den Zweck der Dienstleistungen zu entfremden, um Propaganda oder Proselytismus, Werbung oder Anwerbung zu betreiben,
+- Informationen kommerzieller oder werblicher Art oder Propaganda für Tabak, Alkohol oder andere regulierte Substanzen, Produkte oder Dienstleistungen zu veröffentlichen,
+- Fotografien und andere Inhalte zu verbreiten, die gegen die Persönlichkeitsrechte Dritter verstoßen oder beleidigend, verletzend, obszön, sexuell explizit (ob es sich um reale, gezeichnete oder sogar durch eine Form von künstlicher Intelligenz erzeugte Personen handelt), pornografisch, anstößig, gewalttätig oder zur Diskriminierung, politischen Gewalt, Rassismus, Fremdenfeindlichkeit, Sexismus oder Homophobie anstiftend sind,
+- Informationen zu veröffentlichen, die gegen die Datenschutzgesetze verstoßen, indem sie die Identifizierung von natürlichen Personen ohne deren Zustimmung ermöglichen, insbesondere deren Nachnamen, Post- und/oder E-Mail-Adresse, Telefonnummer, Fotografie, Ton- oder audiovisuelle Aufnahmen,
 
-Jede Nutzung, die gegen die oben genannten Bedingungen verstösst, führt zur Löschung des Kontos ohne Rückerstattung.
+Jede Nutzung, die den oben genannten Bedingungen zuwiderläuft, führt zur Löschung des Kontos ohne Rückerstattung.
 
 ## 8. Referenzen – Werbung – Zitierrecht
 
-Dieser Abschnitt gilt nur für Kunden, die einer Organisation angehören, darunter Unternehmen, Vereine, öffentliche Einrichtungen und vergleichbare Organisationen.
+Dieser Abschnitt betrifft nur Kunden, die zu einer Organisation gehören (Unternehmen, Verein, öffentliche Einrichtung usw.).
 
-Der Kunde gestattet dem Herausgeber, auf dessen eigenen Kommunikationsmitteln wie seiner Website, Broschüren, Aushängen und ähnlichen Materialien Elemente, anhand derer der Kunde identifiziert werden kann, darunter Name, Logo, individuelle Bildschirmfotos und Ähnliches, zu Referenzzwecken zu nennen. Um die Vertraulichkeit eines Projekts zu wahren, kann der Kunde dieser Nutzung durch eine einfache und ausdrückliche Anfrage widersprechen, und der Herausgeber verpflichtet sich, dieser Anfrage nachzukommen.
+Der Kunde ermächtigt den Herausgeber, auf seinen eigenen Kommunikationsmedien (Website, Broschüren, Displays usw.) Elemente (Name, Logo, personalisierte Screenshots usw.), die zur Identifizierung des Kunden dienen, als Referenz zu nennen. Um die Vertraulichkeit eines Projekts zu wahren, kann der Kunde dies durch einfache ausdrückliche Anfrage ablehnen, und der Herausgeber verpflichtet sich, dies zu respektieren.
 
 ## 9. Bekämpfung illegaler Aktivitäten
 
-Im Rahmen der Bekämpfung illegaler Inhalte, insbesondere von Kinderpornografie, kann der Herausgeber frei auf die in den Diensten und auf der Website gehosteten Inhalte zugreifen. Sobald der Herausgeber Kenntnis davon erlangt, dass illegale Inhalte in seinen Diensten gehostet werden, lässt er diese umgehend entfernen, ohne den Urheber oder die Person zu benachrichtigen, die für die Bereitstellung oder Zugänglichmachung dieser illegalen Inhalte verantwortlich ist. Stellt sich heraus, dass das Konto des Benutzers kompromittiert wurde, wird der Benutzer über die Entfernung der Inhalte informiert, das Passwort des Kontos wird geändert, und die neuen Zugangsdaten werden übermittelt, sobald der Benutzer wieder Kontakt mit dem Herausgeber aufgenommen hat. Stellt sich heraus, dass das Konto neben den gemeldeten Inhalten weitere illegale Inhalte enthält, wird das Konto wegen Verstosses gegen diese Nutzungsbedingungen ohne Benachrichtigung des Benutzers gekündigt. In einem solchen Fall kann der Herausgeber je nach Schwere des Sachverhalts die zuständigen Behörden über die festgestellten illegalen Aktivitäten informieren oder sie dabei unterstützen.
+Im Rahmen der Bekämpfung illegaler Inhalte, insbesondere von Kinderpornografie, kann der Herausgeber frei auf die Inhalte zugreifen, die sich auf den Dienstleistungen und der Website befinden. Sobald der Herausgeber Kenntnis davon erhält, dass ein illegaler Inhalt auf seinen Dienstleistungen gehostet wird, entfernt er diesen unverzüglich, ohne den Autor oder die Person, die für die Verbreitung oder Zugänglichkeit dieses illegalen Inhalts verantwortlich ist, zu benachrichtigen. Falls sich herausstellt, dass das Konto des Nutzers missbraucht wurde, wird der Nutzer über die Löschung des Inhalts informiert, das Passwort des Kontos wird geändert und dem Nutzer mitgeteilt, sobald dieser wieder Kontakt mit dem Herausgeber aufgenommen hat. Falls sich herausstellt, dass das Konto weitere illegale Inhalte enthält, wird das Konto wegen Verletzung dieser Nutzungsbedingungen ohne Benachrichtigung des Nutzers gekündigt. In diesem Fall kann der Herausgeber, je nach Schwere der Daten, die zuständigen öffentlichen Behörden über die festgestellten illegalen Aktivitäten informieren oder diese unterstützen.
 
-Geht eine Missbrauchsmeldung zu Inhalten ein, die nicht offensichtlich illegal erscheinen, fordert der Herausgeber den Beschwerdeführer auf, sich an die zuständigen Behörden zu wenden, und kann die Beschwerde gegebenenfalls an den Benutzer der Website und der Dienste weiterleiten, der Urheber der Inhalte ist, mit der Aufforderung zu prüfen, ob die Inhalte mit diesen Nutzungsbedingungen übereinstimmen. Der Herausgeber darf Inhalte, die nicht offensichtlich illegal sind, nur aufgrund einer gerichtlichen Entscheidung entfernen oder wenn diese Inhalte offensichtlich illegal sind.
+Bei Erhalt einer Missbrauchsanzeige zu einem Inhalt, der nicht offensichtlich illegal ist, wird der Herausgeber den Beschwerdeführer auffordern, die zuständigen Behörden einzuschalten, und kann gegebenenfalls die Beschwerde an den Nutzer der Website und der Dienstleistungen, der der Autor ist, weiterleiten und ihn auffordern zu überprüfen, ob der Inhalt den Allgemeinen Nutzungsbedingungen entspricht. Der Herausgeber kann Inhalte, die nicht offensichtlich illegal sind, nur auf Anweisung einer Justizbehörde oder wenn der Inhalt offensichtlich illegal ist, löschen.
 
-Zur Klarstellung: Das Gesetz erlegt dem Herausgeber keine allgemeine Pflicht zur Überwachung von Inhalten auf. Der Herausgeber ist nicht verpflichtet, Inhalte zu entfernen, die nicht offensichtlich illegal erscheinen.
+Zur Erinnerung: Das Gesetz verpflichtet den Herausgeber nicht zu einer allgemeinen Überwachung der Inhalte. Der Herausgeber ist nicht verpflichtet, Inhalte zu löschen, die nicht offensichtlich illegal erscheinen.
 
-Wenn Sie auf Websites Dritter, die in keiner Verbindung zum Herausgeber stehen, illegale Inhalte bemerken, können Sie diese bei den folgenden Stellen melden: [Europol (in Europa)](https://www.europol.europa.eu/report-a-crime/report-illegal-content-on-the-internet), [Internet Crime Complaint Center (in den USA)](https://www.ic3.gov/), [Pharos (in Frankreich)](https://internet-signalement.gouv.fr/), [Point de contact (in Frankreich)](https://www.pointdecontact.net/).
+Wenn Sie auf Websites Dritter illegale Inhalte feststellen, können Sie illegale Inhalte, die Sie sehen, an folgende Adressen melden: [Europol (in Europa)](https://www.europol.europa.eu/report-a-crime/report-illegal-content-on-the-internet), [Internet Crime Complaint Center (in den USA)](https://www.ic3.gov/), [Pharos (in Frankreich)](https://internet-signalement.gouv.fr/), [Point de contact (in Frankreich)](https://www.pointdecontact.net/).
 
-## 10. Haftungsbeschränkung und Gewährleistungsausschluss
+## 10. Haftungs- und Garantiebeschränkung
 
-Der Benutzer ist in vollem Umfang für die Fotos und anderen Inhalte verantwortlich, die er auf der Website und in den Diensten veröffentlicht.
+Der Nutzer ist voll verantwortlich für die Fotos und anderen Inhalte, die er auf der Website und den Dienstleistungen veröffentlicht.
 
-Die Dienste gehören nicht zur redaktionellen Tätigkeit des Herausgebers, der den Benutzern die Dienste lediglich zur Verfügung stellt und ihre Inhalte auf der Website hostet. Die veröffentlichten Inhalte können daher nicht als Ausdruck der Meinung des Herausgebers angesehen werden und verbleiben in der alleinigen Verantwortung ihres Urhebers.
+Die Dienstleistungen fallen nicht in den redaktionellen Bereich des Herausgebers, der den Nutzern nur die Dienstleistungen zur Verfügung stellt und deren Inhalte auf der Website hostet. Daher können die veröffentlichten Inhalte nicht als Meinung des Herausgebers betrachtet werden, sondern nur den Autor verpflichten.
 
-Die Haftung des Herausgebers im Zusammenhang mit der Bereitstellung der Dienste ist die eines technischen Dienstleisters im Sinne von Artikel 6.I-1 des französischen Gesetzes über das Vertrauen in die digitale Wirtschaft (Loi pour la confiance dans l'économie numérique) vom 21. Juni 2004.
+Die Haftung des Herausgebers für die Bereitstellung der Dienstleistungen ist die eines technischen Dienstleisters, wie in Artikel 6.I-1 des Gesetzes über das Vertrauen in die digitale Wirtschaft vom 21. Juni 2004 definiert.
 
-Insbesondere haftet der Herausgeber nicht für indirekte, beiläufig entstandene oder Folgeschäden, ob vorhersehbar oder unvorhersehbar, die dem Benutzer entstehen. Dazu gehören beispielsweise, ohne dass diese Aufzählung abschliessend ist, entgangene Einnahmen oder entgangener Gewinn, Datenverlust, Verlust von Ausrüstung sowie die Kosten für die Behebung solcher Verluste, die sich aus der Nutzung oder der Unmöglichkeit der Nutzung der Dienste der Website ergeben.
+Der Herausgeber kann insbesondere nicht für indirekte, zufällige oder begleitende Schäden, ob vorhersehbar oder nicht, die dem Nutzer entstehen, verantwortlich gemacht werden. Insbesondere, aber nicht abschließend, für entgangene Gewinne oder Profite, Datenverluste, Materialverluste, Reparatur solcher Verluste, die aus der Nutzung und/oder der Unmöglichkeit der Nutzung der Dienstleistungen der Website resultieren.
 
-Das Vorhandensein eines Hyperlinks von einer Website Dritter auf die Website bedeutet in keinem Fall eine Zusammenarbeit zwischen dem Herausgeber und dieser Website Dritter. Der Herausgeber übt keine Kontrolle über Websites Dritter aus und übernimmt daher keinerlei Haftung für die Inhalte, Produkte, Dienstleistungen, Informationen, Materialien oder Software von Websites Dritter, die einen Hyperlink auf die Website enthalten.
+Das Vorhandensein eines Hyperlinks von einer Drittwebsite zur Website impliziert in keinem Fall eine Zusammenarbeit zwischen dem Herausgeber und dieser Drittwebsite. Der Herausgeber übt keine Kontrolle über Drittwebsites aus und übernimmt daher keine Verantwortung für die Inhalte, Produkte, Dienstleistungen, Informationen, Materialien oder Software von Drittwebsites, die einen Hyperlink zur Website enthalten.
 
-Der Herausgeber erfüllt seine vertraglichen Pflichten mit der in seinem Berufsstand üblichen Sorgfalt im Rahmen einer allgemeinen Bemühungspflicht. Da es sich um eine über das Internet erbrachte IT-Dienstleistung handelt, wird der Benutzer darauf hingewiesen, dass beim derzeitigen Stand der Technik das ordnungsgemässe Funktionieren der vom Herausgeber angebotenen Dienste von Faktoren abhängt, die nicht vollständig in seiner Kontrolle liegen.
+Der Herausgeber erfüllt seine vertraglichen Verpflichtungen mit der im Rahmen einer allgemeinen Sorgfaltspflicht üblichen Sorgfalt. Da es sich um eine über das Internet bereitgestellte IT-Dienstleistung handelt, wird der Nutzer darauf hingewiesen, dass der ordnungsgemäße Betrieb der vom Herausgeber angebotenen Dienstleistungen von Faktoren abhängt, die nicht vollständig unter seiner Kontrolle stehen.
 
-Der Herausgeber übernimmt keinerlei ausdrückliche oder stillschweigende Gewährleistung, insbesondere, jedoch nicht abschliessend, keine Gewährleistung hinsichtlich der Qualität der Dienste, ihrer Kompatibilität mit bestimmter Hardware oder ihrer Eignung für einen bestimmten Zweck. Der Herausgeber gewährleistet nicht, dass (i) die Dienste die Erwartungen der Benutzer vollständig erfüllen, (ii) der Zugang zur Website und zu den Diensten ununterbrochen möglich ist oder (iii) die durch die Nutzung der Dienste erzielbaren Ergebnisse genau und zuverlässig sind.
+Der Herausgeber gibt keine ausdrückliche oder stillschweigende Garantie, einschließlich (ohne dass diese Aufzählung abschließend ist) Garantien in Bezug auf Qualität und Kompatibilität der Dienstleistungen mit Hardware und/oder deren Eignung für einen bestimmten Zweck. Der Herausgeber garantiert nicht, dass (i) die Dienstleistungen den Erwartungen der Nutzer vollständig entsprechen, (ii) der Zugang zur Website und zu den Dienstleistungen ununterbrochen ist, (iii) die Ergebnisse, die durch die Nutzung der Dienstleistungen erzielt werden können, genau und zuverlässig sind.
 
-## 11. Beendigung der Dienste
+## 11. Kündigung
 
-Jeder Benutzer kann sein Konto auf der Website jederzeit kündigen. Dazu muss der Benutzer den Support über die E-Mail-Adresse kontaktieren, mit der er sich registriert hat, und die betreffende Galerie angeben, falls er mehrere Galerien besitzt. Nach Ablauf der geltenden gesetzlichen Widerrufsfrist begründet eine Kündigungsanfrage keinen Anspruch auf vollständige oder teilweise Rückerstattung.
+Jeder Nutzer kann sein Konto auf der Website jederzeit kündigen. Dazu muss der Nutzer den Support unter der E-Mail-Adresse kontaktieren, mit der er sich registriert hat, und angeben, um welche Galerie es sich handelt, falls er mehrere besitzt. Nach Ablauf der gesetzlichen Widerrufsfrist führt die Kündigungsanfrage nicht zu einer vollständigen oder teilweisen Rückerstattung.
 
-Nach Ablauf des Test- oder Abonnementzeitraums wird das Konto für einen Zeitraum von neunzig (90) Tagen gesperrt. Während dieses Zeitraums bleibt das Konto für eine Reaktivierung verfügbar, falls der Benutzer sich für ein erneutes Abonnement entscheidet. Nach Ablauf des Sperrzeitraums wird das Konto vom Hauptserver, auf dem es gehostet wird, gelöscht und ist damit für den Benutzer nicht mehr zugänglich. Eine Kopie wird jedoch auf einem Backup-Server aufbewahrt.
+Nach Ablauf der Test- oder Abonnementperiode wird das Konto für 90 Tage gesperrt. Das Konto ist noch zugänglich, um reaktiviert zu werden, falls sich der Kunde entscheidet, ein Abonnement abzuschließen. Nach Ablauf der Sperrfrist wird das Konto vom Hauptserver, der es hostet, gelöscht und ist somit für den Kunden unzugänglich. Eine Kopie wird jedoch auf einem Backup-Server aufbewahrt. Wenn das Konto nie abonniert wurde (z. B. nur eine Testphase), wird es schnell (ca. 30 Tage) vom Backup-Server gelöscht. Wenn das Konto abonniert war, bleibt es für einen längeren Zeitraum auf einem Backup-Server gespeichert, für eine mögliche Wiederherstellung. Die Aufbewahrungsdauer hängt dann vom verfügbaren Platz auf dem Backup-Server ab. Wenn der Kunde wünscht, dass seine Daten vor diesem Zeitraum endgültig gelöscht werden, muss er dies ausdrücklich beim Support beantragen. Sie müssen vor der Kündigung Ihres Kontos sicherstellen, dass alle Ihre Inhalte auf einem anderen Medium als der Website und den Dienstleistungen gesichert sind.
 
-Wurde für das Konto nie ein Abonnement abgeschlossen (zum Beispiel wenn nur ein Testzeitraum genutzt wurde), wird es innerhalb kurzer Zeit (etwa dreissig (30) Tage) vom Backup-Server entfernt. Wurde für das Konto ein Abonnement abgeschlossen, wird es für eine mögliche Wiederherstellung über einen längeren Zeitraum auf einem Backup-Server aufbewahrt. Die Aufbewahrungsdauer hängt vom verfügbaren Speicherplatz auf dem Backup-Server ab.
+Bei Verletzung einer der wesentlichen Verpflichtungen aus den Allgemeinen Nutzungsbedingungen, insbesondere der Identifikationspflichten oder gesetzlichen Verpflichtungen, ist der Herausgeber berechtigt, Ihr Konto ohne vorherige Benachrichtigung und mit sofortiger Wirkung zu deaktivieren, was zur Kündigung ohne Entschädigung der kostenlosen oder kostenpflichtigen Dienstleistungen der Website führt, die mit Ihrem Konto verbunden sind.
 
-Wünscht der Benutzer, dass seine Daten vor Ablauf dieses Zeitraums endgültig gelöscht werden, muss er beim Support eine ausdrückliche Anfrage stellen.
+Bei Verletzung einer der anderen Verpflichtungen aus den Allgemeinen Nutzungsbedingungen kann der Herausgeber Ihnen eine E-Mail-Benachrichtigung zukommen lassen, in der Sie aufgefordert werden, den Verstoß zu beheben. Wenn die Aufforderung innerhalb einer Frist von 8 Werktagen ohne Wirkung bleibt oder der Herausgeber einen neuen Verstoß feststellt, kann der Herausgeber Ihr Konto auf der Website mit sofortiger Wirkung deaktivieren, was zur Kündigung ohne Entschädigung der kostenlosen oder kostenpflichtigen Dienstleistungen führt, die mit Ihrem Konto verbunden sind.
 
-Vor der Kündigung seines Kontos muss der Benutzer sicherstellen, dass alle seine Inhalte auf einem Datenträger ausserhalb der Website und der Dienste gesichert wurden.
+## 12. Professionelle Dienstleistungen (selbstgehostete Installationen)
 
-Bei einem Verstoss gegen wesentliche Pflichten aus diesen Nutzungsbedingungen, insbesondere gegen Pflichten im Zusammenhang mit den Anforderungen an die Identifizierung oder gegen gesetzliche Pflichten, ist der Herausgeber berechtigt, das Konto des Benutzers ohne vorherige Ankündigung und mit sofortiger Wirkung zu kündigen. Diese Kündigung führt zur sofortigen Einstellung des Zugangs zu allen kostenlosen und kostenpflichtigen Diensten, ohne Entschädigung.
+Nutzer können die Piwigo-Software kostenlos von der Website fr.piwigo.org herunterladen und auf der Infrastruktur ihrer Wahl installieren.
 
-Bei einem Verstoss gegen sonstige Pflichten aus diesen Nutzungsbedingungen kann der Herausgeber eine Benachrichtigung per E-Mail senden und den Benutzer auffordern, den Verstoss zu beheben. Wird der Verstoss nicht innerhalb von acht (8) Kalendertagen behoben oder wird ein erneuter Verstoss festgestellt, kann der Herausgeber das Konto sofort sperren oder kündigen, ohne Entschädigung für die mit dem Konto verbundenen Dienste.
+In diesem Rahmen ist der Nutzer allein verantwortlich für:
 
-## 12. Professionelle Dienstleistungen (selbst gehostete Installationen)
+- das Hosting der Software,
+- die Konfiguration seines Servers,
+- die Wartung seiner technischen Umgebung (System, Datenbank, Sicherheit, Backups).
 
-Benutzer können die Software Piwigo kostenlos von piwigo.org herunterladen und auf einer Infrastruktur ihrer Wahl installieren.
+Pigolabs fungiert nicht als Hosting-Anbieter für diese Installationen.
 
-In diesem Fall ist der Benutzer allein verantwortlich für:
+### 12.1 Support- und Hilfsdienste
 
-- das Hosting der Software
-- die Konfiguration seines Servers
-- die Wartung seiner technischen Umgebung (System, Datenbank, Sicherheit, Datensicherungen)
+Pigolabs bietet Support- und technische Hilfsdienste für selbstgehostete Installationen an, die über den Abschluss eines speziellen kommerziellen Angebots zugänglich sind.
 
-PigoLabs tritt für solche Installationen nicht als Hosting-Anbieter auf.
+Diese Dienstleistungen umfassen ausschließlich die Piwigo-Software in ihrer Standardfunktionalität und beinhalten insbesondere:
 
-### 12.1 Support und Unterstützung
+- Unterstützung bei der Nutzung der Software,
+- Hilfe bei der funktionalen Konfiguration,
+- Support für bestimmte Plugins, je nach gebuchtem Angebot,
+- Diagnose von Anomalien im Zusammenhang mit der Software.
 
-PigoLabs bietet für selbst gehostete Installationen Support- und technische Unterstützungsleistungen im Rahmen von Abonnements für spezielle Support-Pakete an.
+Die Modalitäten (Servicelevel, Reaktionszeiten, genauer Umfang) sind auf der Seite mit den Support-Angeboten beschrieben.
 
-Diese Leistungen beziehen sich ausschliesslich auf den Standardbetrieb der Software Piwigo und können Folgendes umfassen:
+### 12.2 Grenzen des Support-Umfangs
 
-- Unterstützung bei der Nutzung
-- Hilfe bei der Konfiguration
-- Support für bestimmte Plugins, je nach gewähltem Support-Paket
-- Diagnose von Problemen im Zusammenhang mit der Software
+Sofern nicht ausdrücklich anders angegeben, umfassen die Support-Dienstleistungen nicht:
 
-Umfang, Service-Levels und Reaktionszeiten sind auf den entsprechenden Seiten der Website beschrieben.
+- die Verwaltung oder Wartung des Servers des Nutzers,
+- Eingriffe in die Infrastruktur (Hosting, System, Datenbank, Netzwerk),
+- spezifische Entwicklungen oder Änderungen am Quellcode von Piwigo,
+- Eingriffe in Plugins oder Komponenten, die nicht vom gebuchten Angebot abgedeckt sind.
 
-### 12.2 Einschränkungen des Leistungsumfangs
+Jeder Eingriff außerhalb des Support-Umfangs kann Gegenstand einer zusätzlichen Berechnung sein.
 
-Sofern nicht ausdrücklich anders angegeben, umfassen die Support-Leistungen nicht:
+### 12.3 Geänderter Code und spezifische Umgebungen
 
-- die Verwaltung oder Wartung von Servern
-- Eingriffe im Zusammenhang mit der Infrastruktur (Hosting, System, Datenbank, Netzwerk)
-- individuelle Entwicklungen oder Änderungen am Quellcode von Piwigo
-- Support für Komponenten, die nicht durch das gewählte Support-Paket abgedeckt sind
+Wenn die Piwigo-Installation Änderungen am Quellcode oder spezifische Integrationen erfahren hat, behält sich Pigolabs das Recht vor:
 
-Anfragen, die über den Umfang des Supports hinausgehen, können zusätzlich in Rechnung gestellt werden.
+- den Support einzuschränken,
+- oder einen kostenpflichtigen Eingriff auf Angebotsbasis vorzuschlagen.
 
-### 12.3 Veränderter Code
+Pigolabs kann die ordnungsgemäße Funktionsweise der Software in einer geänderten oder nicht den Empfehlungen entsprechenden Umgebung nicht garantieren.
 
-Wurde die Piwigo-Installation verändert oder enthält sie individuelle Entwicklungen, behält sich PigoLabs das Recht vor:
+### 12.4 Outsourcing-Dienstleistungen
 
-- den geleisteten Support einzuschränken
-- oder kostenpflichtige Leistungen auf Grundlage eines vorherigen Kostenvoranschlags anzubieten
+Pigolabs kann zusätzlich zum Support Outsourcing-Dienstleistungen anbieten, die insbesondere die Installation, Wartung und Aktualisierung des Servers umfassen.
 
-PigoLabs kann den ordnungsgemässen Betrieb der Software in veränderten oder nicht standardmässigen Umgebungen nicht gewährleisten.
-
-### 12.4 Verwaltete Dienstleistungen
-
-PigoLabs kann zusätzlich zu den Support-Leistungen verwaltete Dienstleistungen (Managed Services) anbieten, darunter insbesondere, jedoch nicht abschliessend, Installation, Wartung und Aktualisierungen von Servern.
-
-Diese Dienstleistungen werden im Rahmen einer gesonderten kommerziellen Vereinbarung oder eines eigenen Leistungsangebots erbracht. Sie sind nicht in den Standard-Support-Paketen enthalten und können in manchen Fällen ein aktives Support-Paket voraussetzen.
+Diese Dienstleistungen sind Gegenstand eines separaten Vertrags oder Angebots. Sie sind nicht in den Standard-Support-Angeboten enthalten und können je nach Fall Kunden vorbehalten sein, die über ein aktives Support-Angebot verfügen.
 
 ### 12.5 Haftung
 
-Bei selbst gehosteten Installationen unterliegt PigoLabs einer Bemühungspflicht.
+Im Rahmen einer selbstgehosteten Installation ist Pigolabs zu einer Pflicht zu angemessenen Mitteln verpflichtet.
 
-PigoLabs haftet nicht für:
+Pigolabs kann nicht verantwortlich gemacht werden für:
 
-- Probleme im Zusammenhang mit der Infrastruktur des Benutzers
-- Datenverluste infolge fehlerhafter Konfiguration oder fehlender Datensicherungen
-- oder indirekte Schäden im Zusammenhang mit der Nutzung der Software auf der Infrastruktur Dritter
+- Ausfälle im Zusammenhang mit der Infrastruktur des Nutzers,
+- Datenverluste aufgrund falscher Konfiguration oder fehlender Backups,
+- oder indirekte Schäden im Zusammenhang mit dem Betrieb der Software auf einer Drittinfrastruktur.
 
-## 13. Umkehrbarkeit der Daten
 
-Der Herausgeber verpflichtet sich, dem Kunden während der gesamten Laufzeit seines Abonnements jederzeit zu ermöglichen, seine Daten eigenständig, kostenlos und so oft wie gewünscht zu exportieren.
+## 13. Datenreversibilität
 
-Dieser eigenständige Export kann direkt über das Konto des Kunden in Form von herunterladbaren Archivdateien (.zip) durchgeführt werden. Er umfasst alle in das Konto des Kunden hochgeladenen Dateien, geordnet nach Jahr, Monat und Datum des Hochladens, sowie zusätzliche Dateien, die die Migration des Kontos auf einen anderen Piwigo-Server ermöglichen.
+Der Herausgeber verpflichtet sich, einem Kunden während der Laufzeit seines Abonnements jederzeit zu ermöglichen, einen autonomen Export seiner Daten kostenlos und in der vom Kunden gewünschten Häufigkeit durchzuführen. Dieser autonome Export kann vom Kundenkonto aus in Form einer Reihe herunterladbarer Archive (.zip) durchgeführt werden. Dieser Export enthält alle in das Kundenkonto importierten Dateien, sortiert nach Jahr, Monat und Importdatum, sowie andere Dateien, die die Migration des Kontos zu einem anderen Piwigo-Server ermöglichen.
 
-Darüber hinaus kann der Herausgeber während der Laufzeit des Vertrags jederzeit einen begleiteten Export durchführen, begrenzt auf einmal pro Jahr. Dieser Export erfolgt ohne zusätzliche Kosten. Die Daten können in Form einer strukturierten Ordnerstruktur über ein Dateiübertragungssystem bereitgestellt werden.
+Darüber hinaus kann ein "unterstützter" Export vom Herausgeber jederzeit während der Vertragslaufzeit, jedoch auf einmal pro Jahr begrenzt, durchgeführt werden. Dieser Export wird ohne zusätzliche Kosten durchgeführt. Die Daten können in Form einer Ordnerstruktur über ein Dateiübertragungssystem zurückgegeben werden.
 
-Im Falle einer Kündigung oder Nichtverlängerung des Abonnements verpflichtet sich der Herausgeber, die Daten des Kunden für einen Zeitraum von mindestens neunzig (90) Tagen nach dem Ende des Abonnements aufzubewahren. Während dieses Zeitraums stehen dem Kunden weiterhin sowohl der eigenständige als auch der begleitete Export zur Verfügung.
+Im Falle einer Kündigung oder Nichtverlängerung des Abonnements verpflichtet sich der Herausgeber, die Daten des Kunden für einen Zeitraum von mindestens 90 Tagen ab dem Ablaufdatum des Abonnements aufzubewahren. Während dieser Zeit steht dem Kunden weiterhin das autonome oder unterstützte Export-System zur Verfügung.
 
-Der Herausgeber behält sich das Recht vor, einen Datenexport zu verweigern, wenn der Kunde gegen eine der in diesen Nutzungsbedingungen festgelegten Regeln verstossen hat.
+Der Herausgeber kann die Durchführung des Datenexports verweigern, wenn der Kunde gegen eine der in diesen Nutzungsbedingungen festgelegten Regeln verstoßen hat.
 
-??? note "Änderungsverlauf der Nutzungsbedingungen:"
+??? note "Verlauf der Nutzungsbedingungen"
     
-    - 2026-03-17: Neuformulierung der Allgemeinen Nutzungsbedingungen, Aufnahme der neuen Leistungsangebote für Kunden mit selbst gehosteten Installationen und eines Kapitels zur Umkehrbarkeit der Daten
-    - 2024-04-11: genauere Angaben zu verbotenen „sexuell expliziten“ Inhalten
-    - 2024-01-25: genauere Angaben zur Löschung von Konten
-    - 2023-05-23: ausdrückliche Erwähnung einer möglichen Rückerstattung
-    - 2023-04-11: Hinzufügen des Absatzes zu den Bedingungen des Wartungsvertrags
-    - 2023-03-28: Aktualisierung nach der Veröffentlichung neuer Preispläne
-    - 2019-12-01: Verlegung des Firmensitzes nach Saint-Sébastien-sur-Loire (Frankreich)
-    - 2018-10-19: genauere Angaben zur Mehrwertsteuer, Abschnitt „Referenzen – Werbung – Zitierrecht“
-    - 2015-09-22: Standard-Paket für Vereine mit nur einem Angestellten geöffnet
-    - 2015-09-22: Verlegung des Firmensitzes nach Nantes (Frankreich)
-    - 2010-12-21: erste Version
+    - 2026-03-17: Berücksichtigung der neuen Dienstleistungsangebote für selbstgehostete Kunden
+    - 2024-12-11: Ersatz des Abschnitts "Wartungsvertrag" durch den Abschnitt "Professionelle Dienstleistungen". Hinzufügung des Abschnitts "Datenreversibilität"
+    - 2024-04-11: Hinzufügung des Verbots von "sexuell expliziten" Inhalten
+    - 2024-01-25: Details zum Prozess der Kontolöschung
+    - 2023-05-23: Explizite Erwähnung einer möglichen Rückerstattung
+    - 2023-04-11: Hinzufügung des Absatzes zu den Bedingungen des Wartungsvertrags
+    - 2023-03-28: Aktualisierung nach Veröffentlichung einer neuen Preistabelle
+    - 2019-12-01: Umzug des Firmensitzes nach Saint-Sébastien-sur-Loire
+    - 2018-10-19: Details zur Mehrwertsteuer, Hinzufügung des Abschnitts "Referenzen – Werbung – Zitierrecht"
+    - 2015-09-22: Für Vereine, Beschränkung des Standardangebots auf solche mit maximal einem Angestellten
+    - 2015-09-22: Umzug des Firmensitzes nach Nantes
+    - 2014-07-10: Erweiterung des Angebots auf Vereine, ohne Bedingungen
+    - 2010-12-21: Erste Version
+
+!!! quote ""
+    Diese Nutzungsbedingungen wurden aus der [französischen Version](https://doc-fr.piwigo.org/mentions-legales/conditions-utilisation/#125-responsabilite) übersetzt.
