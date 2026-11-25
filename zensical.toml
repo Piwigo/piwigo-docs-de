@@ -35,7 +35,7 @@ site_url = "https://doc-de.piwigo.org/"
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = "&copy; 2002-2026"
 
-repo_url = "https://github.com/Piwigo/piwigo-docs-en"
+repo_url = "https://github.com/Piwigo/piwigo-docs-de"
 edit_uri = "edit/main/docs/"
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
