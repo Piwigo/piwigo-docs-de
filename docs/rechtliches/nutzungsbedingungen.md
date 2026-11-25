@@ -55,6 +55,10 @@ Die Registrierung auf der Website erfordert die Angabe von Informationen wie Nam
 
 Bei der Registrierung auf der Website wählt der Nutzer eine eindeutige Kennung und ein streng persönliches Passwort. Der registrierte Nutzer ist der einzige, der berechtigt ist, die persönliche Kennung und das Passwort zu verwenden, und verpflichtet sich, diese vertraulich zu behandeln.
 
+Jedes Administratorkonto der Galerie wird einer einzigen, namentlich bestimmten natürlichen Person zugewiesen, die allein berechtigt ist, es zu nutzen. Die maximale Anzahl an Administratorkonten richtet sich nach dem abgeschlossenen Angebot, wie auf der Preisseite der Website beschrieben. Es ist untersagt, ein Administratorkonto mit mehreren Personen zu teilen, auch innerhalb derselben Organisation, sowie jegliches Verfahren anzuwenden, das darauf abzielt, die im abgeschlossenen Angebot vorgesehene Anzahl an Administratoren zu überschreiten, insbesondere die Nutzung eines Sammelkontos (zum Beispiel "kommunikation@...") durch mehrere Personen.
+
+Bei einem Verstoß gegen diese Regel fordert der Herausgeber den Nutzer per E-Mail auf, den Verstoß zu beheben. Erfolgt innerhalb von 7 Tagen nach Zugang dieser Aufforderung keine Abhilfe, kann der Herausgeber nach eigener Wahl (i) das Abonnement auf das Angebot umstellen, das der tatsächlichen Anzahl der Personen entspricht, die die Administration nutzen, und die Differenz anteilig für den verbleibenden Zeitraum in Rechnung stellen, oder (ii) das Konto unter den in Artikel 11 genannten Bedingungen deaktivieren.
+
 Der Nutzer verpflichtet sich, den Herausgeber unverzüglich zu informieren über (i) jede nicht autorisierte Nutzung seines Kontos und/oder Passworts, (ii) jeden Angriff auf die Sicherheit seines Kontos, (iii) jede ungewöhnliche Änderung seines Inhalts.
 
 Der Herausgeber erinnert den Nutzer daran, die notwendigen Maßnahmen zu ergreifen, um Identitätsdiebstahl auf der Website und bei den Dienstleistungen zu verhindern. In diesem Zusammenhang wird der Nutzer auf folgende Punkte hingewiesen, falls ein unsicheres Zugangsmittel (öffentliches WLAN, Internetcafé) verwendet wird: (i) Abmelden nach jeder Sitzung, (ii) Nicht aktivieren der Option "Automatische Anmeldung" bei der Identifizierung auf dem Nutzerkonto.
@@ -148,7 +152,7 @@ Nach Ablauf der Test- oder Abonnementperiode wird das Konto für 90 Tage gesperr
 
 Bei Verletzung einer der wesentlichen Verpflichtungen aus den Allgemeinen Nutzungsbedingungen, insbesondere der Identifikationspflichten oder gesetzlichen Verpflichtungen, ist der Herausgeber berechtigt, Ihr Konto ohne vorherige Benachrichtigung und mit sofortiger Wirkung zu deaktivieren, was zur Kündigung ohne Entschädigung der kostenlosen oder kostenpflichtigen Dienstleistungen der Website führt, die mit Ihrem Konto verbunden sind.
 
-Bei Verletzung einer der anderen Verpflichtungen aus den Allgemeinen Nutzungsbedingungen kann der Herausgeber Ihnen eine E-Mail-Benachrichtigung zukommen lassen, in der Sie aufgefordert werden, den Verstoß zu beheben. Wenn die Aufforderung innerhalb einer Frist von 8 Werktagen ohne Wirkung bleibt oder der Herausgeber einen neuen Verstoß feststellt, kann der Herausgeber Ihr Konto auf der Website mit sofortiger Wirkung deaktivieren, was zur Kündigung ohne Entschädigung der kostenlosen oder kostenpflichtigen Dienstleistungen führt, die mit Ihrem Konto verbunden sind.
+Bei Verletzung einer der anderen Verpflichtungen aus den Allgemeinen Nutzungsbedingungen kann der Herausgeber Ihnen eine E-Mail-Benachrichtigung zukommen lassen, in der Sie aufgefordert werden, den Verstoß zu beheben. Wenn die Aufforderung innerhalb einer Frist von 8 Tagen ohne Wirkung bleibt oder der Herausgeber einen neuen Verstoß feststellt, kann der Herausgeber Ihr Konto auf der Website mit sofortiger Wirkung deaktivieren, was zur Kündigung ohne Entschädigung der kostenlosen oder kostenpflichtigen Dienstleistungen führt, die mit Ihrem Konto verbunden sind.
 
 ## 12. Professionelle Dienstleistungen (selbstgehostete Installationen)
 
@@ -224,6 +228,7 @@ Der Herausgeber kann die Durchführung des Datenexports verweigern, wenn der Kun
 
 ??? note "Verlauf der Nutzungsbedingungen"
     
+    - 2026-11-25: Personengebundene Administratorkonten, Verbot der gemeinsamen Nutzung von Zugangsdaten durch mehrere Personen
     - 2026-03-17: Berücksichtigung der neuen Dienstleistungsangebote für selbstgehostete Kunden
     - 2024-12-11: Ersatz des Abschnitts "Wartungsvertrag" durch den Abschnitt "Professionelle Dienstleistungen". Hinzufügung des Abschnitts "Datenreversibilität"
     - 2024-04-11: Hinzufügung des Verbots von "sexuell expliziten" Inhalten
@@ -239,4 +244,4 @@ Der Herausgeber kann die Durchführung des Datenexports verweigern, wenn der Kun
     - 2010-12-21: Erste Version
 
 !!! quote ""
-    Diese Nutzungsbedingungen wurden aus der [französischen Version](https://doc-fr.piwigo.org/mentions-legales/conditions-utilisation/#125-responsabilite) übersetzt.
+    Diese Nutzungsbedingungen wurden aus der [französischen Version](https://doc-fr.piwigo.org/mentions-legales/conditions-utilisation/) übersetzt.
