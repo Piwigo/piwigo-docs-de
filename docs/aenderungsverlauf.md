@@ -5,6 +5,7 @@ description: "26/11/2026: Klausel zu den Nutzungsbedingungen hinzufügen: Benann
 
 # Änderungsverlauf
 
+26/11/2026: Klausel zu den Nutzungsbedingungen hinzufügen: Benannte Administratorkonten
 
 17/11/2025: Update auf Piwigo 16: Dokumentation des Plugins für die Zwei-Faktor-Authentifizierung hinzugefügt
 
