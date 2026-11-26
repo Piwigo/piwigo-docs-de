@@ -1,18 +1,19 @@
 ---
 title: Änderungsverlauf
-description: "17.11.2025: Update auf Piwigo 26: Dokumentation des Plugins für die Zwei-Faktor-Authentifizierung hinzugefügt"
+description: "26/11/2026: Klausel zu den Nutzungsbedingungen hinzufügen: Benannte Administratorkonten"
 ---
 
 # Änderungsverlauf
 
-17.11.2025: Update auf Piwigo 26: Dokumentation des Plugins für die Zwei-Faktor-Authentifizierung hinzugefügt
 
-04.11.2025: Screenshots der iOS-App nach der Veröffentlichung der neuesten App-Version aktualisiert.
+17/11/2025: Update auf Piwigo 16: Dokumentation des Plugins für die Zwei-Faktor-Authentifizierung hinzugefügt
 
-20.12.2024: Update auf Piwigo 15: Aktualisierung der betroffenen Funktionen, Teil 2 (Stapelverarbeitung, PDF-Reader, Suchmaschine, Albumsuche)
+04/11/2025: Screenshots der iOS-App nach der Veröffentlichung der neuesten App-Version aktualisiert.
 
-03.12.2024: Dokumentation der Systemaktivitäten hinzugefügt.
+20/12/2024: Update auf Piwigo 15: Aktualisierung der betroffenen Funktionen, Teil 2 (Stapelverarbeitung, PDF-Reader, Suchmaschine, Albumsuche)
 
-26.11.2024: Update auf Piwigo 15: Aktualisierung der betroffenen Funktionen, Teil 1 (Benutzer erstellen und bearbeiten, Passwortverwaltung, Albumauswahl beim Foto-Import und beim Bearbeiten von Fotos, Benutzerliste).
+03/12/2024: Dokumentation der Systemaktivitäten hinzugefügt.
 
-22.10.2024: Dokumentation der Permalinks für Alben hinzugefügt.
+26/11/2024: Update auf Piwigo 15: Aktualisierung der betroffenen Funktionen, Teil 1 (Benutzer erstellen und bearbeiten, Passwortverwaltung, Albumauswahl beim Foto-Import und beim Bearbeiten von Fotos, Benutzerliste).
+
+22/10/2024: Dokumentation der Permalinks für Alben hinzugefügt.
